@@ -482,9 +482,11 @@ private:
         {
             // BRIGHT: three ring-modulated sine pairs (inharmonic, band-limited by construction) plus the squares.
             static constexpr double r[6] = { 3127.0, 4513.0, 5297.0, 6961.0, 8017.0, 9851.0 };
-            m = 0.5 * metalSquares();
+            // their pitch shaken like the squares': plain sine pairs are lines in the spectrum (a tail tonality of 30 dB)
+            const double jn = jitter (0), j = 1.0 + jitDepth * jn, j2 = 1.0 + jitDepth * jitter (1);
+            m = 0.5 * metalSquares (jn);
             for (int i = 0; i < 3; ++i)
-                m += 0.5 * sine (2 * i, r[2 * i] * pitch) * sine (2 * i + 1, r[2 * i + 1] * pitch);
+                m += 0.5 * sine (2 * i, r[2 * i] * pitch * j) * sine (2 * i + 1, r[2 * i + 1] * pitch * j2);
         }
         else
             m = metalSquares (jitter (0));

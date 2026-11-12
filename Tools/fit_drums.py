@@ -154,7 +154,9 @@ def main():
         refs = {q["rel"]: q for q in pickle.load(open(REFS, "rb"))}
         done = json.load(open(out_path))
         iters = int(os.environ.get("FIT_ITERS", "1800"))
-        jobs = [(k, plan[k]["role"], refs[plan[k]["ref"]]["feat"], (hash(k) + 7) & 0xffff, iters) for k, v in done.items() if v["dist"] > thr]
+        only = set(os.environ.get("FIT_KEYS", "").split()) - {""}
+        jobs = [(k, plan[k]["role"], refs[plan[k]["ref"]]["feat"], (hash(k) + 7) & 0xffff, iters) for k, v in done.items()
+                if (k in only if only else v["dist"] > thr)]
         print("refitting", len(jobs), "sounds above", thr, flush=True)
         from concurrent.futures import as_completed
         better = 0
@@ -162,7 +164,8 @@ def main():
             futures = [ex.submit(fit_one, j) for j in jobs]
             for fut in as_completed(futures):
                 key, res = fut.result()
-                if res["dist"] < done[key]["dist"]:
+                # FIT_KEYS (after an engine change) always takes the new fit: the stored one was measured on the old engine
+                if only or res["dist"] < done[key]["dist"]:
                     done[key] = res; better += 1
                 json.dump(done, open(out_path, "w"), indent=1)
         print("improved", better, "of", len(jobs), flush=True)

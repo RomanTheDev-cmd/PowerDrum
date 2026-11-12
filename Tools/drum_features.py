@@ -124,6 +124,8 @@ def distance(a, b, detail=False):
         "len": 12.0 * abs(np.log2(max(a["len"], 0.005) / max(b["len"], 0.005))),
         "crest": abs(a["crest"] - b["crest"]),
     }
-    w = {"env": 1.0, "att": 0.6, "body": 0.8, "tail": 0.5, "tonal": 1.2, "flat": 0.4, "side": 0.3, "len": 0.6, "crest": 0.4}
+    import os
+    w = {"env": 1.0, "att": 0.6, "body": 0.8, "tail": 0.5, "tonal": float(os.environ.get("DRUM_TONAL_W", "1.2")), "flat": 0.4,
+         "side": 0.3, "len": 0.6, "crest": 0.4}
     total = sum(w[k] * v for k, v in parts.items())
     return (total, parts) if detail else total

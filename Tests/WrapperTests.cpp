@@ -26,6 +26,7 @@ float plain (PowerDrumProcessor& p, const juce::String& id) { return p.state.get
 // Plays one note through processBlock with all 17 outputs in the buffer; returns the peak per output.
 std::vector<float> playNote (PowerDrumProcessor& p, int note, int blocks = 40)
 {
+    p.reset();   // no tail of the previous hit (a reverb return) in this measurement
     const int ch = p.getTotalNumOutputChannels();
     juce::AudioBuffer<float> b (ch, 512);
     std::vector<float> pk ((size_t) pd::numOutputs, 0.0f);
@@ -58,6 +59,11 @@ void testBuses()
     // Default routing: every slot on MAIN.
     auto pk = playNote (p, 39);
     expect (pk[0] > 0.01f && pk[4] == 0.0f, "default: the clap (D#1) plays on MAIN");
+    for (int s = 0; s < pd::numSlots; ++s) // no sends: their returns are on MAIN by design
+    {
+        setPlain (p, pd::slotId (s, pd::id::rev), 0.0f);
+        setPlain (p, pd::slotId (s, pd::id::dly), 0.0f);
+    }
     pd::setMultiOut (p.state, true);
     expect (pd::isMultiOut (p.state), "MULTI sets every slot to its own output");
     pk = playNote (p, 39);

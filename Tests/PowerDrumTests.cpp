@@ -500,6 +500,20 @@ void testFactoryKits()
         }
         for (int s = 0; s < numSlots; ++s)
             expect (k.slotNames[(size_t) s].isNotEmpty(), k.name + ": slot " + juce::String (s + 1) + " has a name");
+        // Drums, not synths: no factory sound holds a pitch in its tail (kick, tom and rumble tails are low by nature).
+        int tonal = 0;
+        juce::String worst;
+        for (int s = 0; s < numSlots; ++s)
+        {
+            auto q = paramsFromSnapshot (k.values);
+            for (int o = 0; o < numSlots; ++o) q.slots[(size_t) o].mute = o != s;
+            auto& sp = q.slots[(size_t) s];
+            if (sp.type == DrumType::kick || sp.type == DrumType::rumble || sp.type == DrumType::tom) continue;
+            sp.rev = sp.dly = 0.0f;
+            const double tn = tailTonality (render (q, { { 0.0, s } }, 1.0), 48000.0);
+            if (tn >= 30.0) { ++tonal; worst += " " + k.slotNames[(size_t) s] + " " + juce::String (tn, 0); }
+        }
+        expect (tonal == 0, k.name + ": no sound with a tonal tail (>= 30 dB):" + worst);
     }
 }
 } // namespace
@@ -568,11 +582,10 @@ int main (int argc, char** argv)
     }
     if (mode == "--kit-peaks")
     {
-        // The true peak (4x oversampled) of every factory kit's PLAY groove on MAIN, at VOLUME 0 dB and 140 BPM.
+        // The true peak (4x oversampled) of every factory kit's PLAY groove on MAIN, at the kit's VOLUME and 140 BPM.
         for (const auto& k : factoryKits())
         {
             auto p = paramsFromSnapshot (k.values);
-            p.volumeDb = 0.0f;
             std::cout << k.name << "|" << juce::String (db (truePeak (render (p, grooveHits (p, 2), 64 * 60.0 / 140.0 / 4.0 + 1.5))), 2) << "\n";
         }
         return 0;
@@ -589,7 +602,7 @@ int main (int argc, char** argv)
         auto file = juce::File::getCurrentWorkingDirectory().getChildFile (argv[3]);
         file.deleteFile();
         if (auto stream = std::unique_ptr<juce::OutputStream> (file.createOutputStream()))
-            if (auto w = std::unique_ptr<juce::AudioFormatWriter> (wav.createWriterFor (stream.get(), 48000.0, 2, 24, {}, 0)))
+            if (auto w = std::unique_ptr<juce::AudioFormatWriter> (wav.createWriterFor (stream.get(), 48000.0, 2, 16, {}, 0)))
             {
                 stream.release();
                 w->writeFromAudioSampleBuffer (out, 0, out.getNumSamples());

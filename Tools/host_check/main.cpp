@@ -21,13 +21,14 @@ juce::AudioProcessorParameter* findParam (juce::AudioPluginInstance& p, const ju
 {
     for (auto* prm : p.getParameters())
         if (auto* h = dynamic_cast<juce::HostedAudioProcessorParameter*> (prm))
-            if (h->getParameterID() == id || prm->getName (64) == id) return prm;
+            if (h->getParameterID() == id || prm->getName (128) == id) return prm;
     return nullptr;
 }
 
 // One hit of a note; the peak of every output bus.
 std::vector<float> hit (juce::AudioPluginInstance& p, int note, double sr, int block)
 {
+    p.reset();   // no tail of the previous hit (a reverb return) in this measurement
     const int ch = p.getTotalNumOutputChannels();
     juce::AudioBuffer<float> buf (std::max (2, ch), block);
     std::vector<float> pk ((size_t) p.getBusCount (false), 0.0f);
@@ -95,7 +96,10 @@ int main (int argc, char** argv)
             inst->releaseResources();
         }
     inst->prepareToPlay (48000.0, 512);
-    auto* out4 = findParam (*inst, "s4_out");
+    for (int s = 1; s <= 16; ++s) // no sends: their returns are on MAIN by design
+        for (auto* n : { " Reverb Send", " Delay Send" })
+            if (auto* prm = findParam (*inst, "Slot " + juce::String (s) + n)) prm->setValueNotifyingHost (0.0f);
+    auto* out4 = findParam (*inst, "Slot 4 Output");   // VST3 shows numeric IDs to the host: found by the name the DAW lists
     check (out4 != nullptr, "the OUTPUT parameter of slot 4 is visible to the host");
     if (out4 != nullptr)
     {
@@ -117,7 +121,7 @@ int main (int argc, char** argv)
     // Every slot on its own output at once (MULTI OUT).
     int separate = 0;
     for (int s = 1; s <= 16; ++s)
-        if (auto* o = findParam (*inst, "s" + juce::String (s) + "_out")) o->setValueNotifyingHost ((float) s / 16.0f);
+        if (auto* o = findParam (*inst, "Slot " + juce::String (s) + " Output")) o->setValueNotifyingHost ((float) s / 16.0f);
     for (int s = 0; s < 16; ++s)
     {
         const auto pk = hit (*inst, 36 + s, 48000.0, 512);

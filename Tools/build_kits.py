@@ -56,7 +56,7 @@ KITS = [
     ("Hard Groove Tools", "Hard Techno", "Groove", 28, None),
     ("Driving Machine", "Hard Techno", "Groove", 28, None),
     ("Bunker Hard", "Hard Techno", "Groove", 28, None),
-    ("Boris Core", "Hard Techno", "Rumble", 7, 3),
+    ("Core Rumble", "Hard Techno", "Rumble", 7, 3),
     ("Dark Factory", "Industrial", "Dark", 29, None),
     ("Iron Mill", "Industrial", "Dark", 29, None),
     ("Concrete Dust", "Industrial", "Dark", 29, None),
@@ -160,37 +160,35 @@ def plan():
     print("home pack share:", sum(1 for k, v in out.items() if v["pack"] == KITS[int(k.split(':')[0])][3]) / len(out))
 
 
-ADJ = {
-    "kick": lambda f, m: (["Hard", "Round", "Dist"][m["model"]] + (" Rumble" if f["len"] > 0.45 else "") + (" Punch" if f["crest"] > 7 else "")),
-}
+# Short tag of each kit for its sounds' names ("Signal Dist Kick"): the browser lists sounds under their kit.
+TAG = {"Signal Schranz": "Signal", "Steel Pressure": "Steel", "Night Shift Schranz": "Night", "Modern Schranz": "Modern",
+       "Rumble Engine": "Engine", "Pulse Factory": "Pulse", "Classic Schranz": "Classic", "Old School Tools": "Oldschool",
+       "Schranz Vol. One": "Vol One", "Loop Cutter": "Cutter", "Second Wave": "Wave", "Rolling Schranz": "Rolling",
+       "Twenty Years Hard": "Twenty", "Dirty Lofi Hard": "Lofi", "Warehouse Pressure": "Warehouse", "Hard Groove Tools": "Groove",
+       "Driving Machine": "Driving", "Bunker Hard": "Bunker", "Core Rumble": "Core", "Dark Factory": "Factory",
+       "Iron Mill": "Iron", "Concrete Dust": "Concrete", "Rust Belt": "Rust", "Machine Hall": "Machine"}
+NOUN = {"kick": "Kick", "perc_short": "Perc", "snare": "Snare", "clap": "Clap", "rumble": "Rumble", "perc_low": "Low Perc",
+        "hat_c": "Closed Hat", "perc": "Perc", "hat_c2": "Ghost Hat", "perc2": "Perc", "hat_o": "Open Hat", "perc_high": "High Perc",
+        "fx": "FX", "crash": "Crash", "clap2": "Flam Clap", "ride": "Ride"}
 
 
-def sound_name(slot, fit, ref):
-    """A name from what the sound IS (never the name of a reference file)."""
-    f = ref["feat"]
-    t = fit["type"]
-    bright = "Bright" if f["cent"] > {"kick": 110, "rumble": 90, "snare": 3500, "clap": 2600, "hat": 8000, "cymbal": 8000,
-                                      "tom": 600, "perc": 2200, "fx": 3000}[t] else "Dark"
-    length = "Long" if f["len"] > {"kick": 0.45, "rumble": 0.35, "snare": 0.4, "clap": 0.8, "hat": 0.3, "cymbal": 1.5, "tom": 0.4,
-                                   "perc": 0.5, "fx": 3.0}[t] else "Short"
-    wide = "Wide " if f["side"][1] > -10 else ""
-    dirty = "Dirty " if fit["x"]["drive"] > 0.45 else ""
-    noun = {"kick": "Kick", "rumble": "Rumble", "snare": "Snare", "clap": "Clap", "hat": "Hat", "cymbal": "Cymbal", "tom": "Tom",
-            "perc": "Perc", "fx": "FX"}[t]
-    model = {"kick": ["Hard", "Round", "Dist"], "snare": ["Tight", "Fat", "Noise"], "clap": ["", "Spread", "Dense"],
-             "hat": ["", "Bright", "Lofi"], "cymbal": ["Ride", "Crash", "China"], "tom": ["Deep", "Conga", "Click"],
-             "perc": ["Metal", "Rim", "Wood"], "rumble": ["Comb", "Verb", "Growl"], "fx": ["Zap", "Sweep", "Impact"]}[t][fit["model"]]
-    if slot in ("hat_c", "hat_c2"):
-        noun = "Closed Hat"
-    elif slot == "hat_o":
-        noun = "Open Hat"
-    elif slot == "ride" and t == "cymbal":
-        noun, model = "Ride", ""
-    elif slot == "crash" and t == "cymbal":
-        noun, model = "Crash", ""
-    parts = [dirty + wide, (bright if t not in ("kick", "rumble") else ""), (length if t in ("kick", "rumble", "clap", "perc", "tom") else ""), model, noun]
-    name = " ".join(p.strip() for p in parts if p.strip())
-    return " ".join(name.split())
+def sound_name(kit, slot, fit):
+    """A name from what the sound IS and where it belongs (never the name of a reference file)."""
+    t, m, x = fit["type"], fit["model"], fit["x"]
+    desc = ""
+    if t == "kick": desc = ["Hard", "Round", "Dist"][m]
+    elif t == "rumble": desc = ["Comb", "Verb", "Growl"][m]
+    elif t == "snare": desc = ["Tight", "Fat", "Noise"][m] if slot == "snare" else "Noise"
+    elif t == "clap": desc = ("Room" if x["b"] > 0.6 else ["", "Spread", "Dense"][m]) if slot in ("clap", "clap2", "snare") else "Clap"
+    elif t == "hat": desc = ["", "Bright", "Lofi"][m]
+    elif t == "cymbal": desc = "China" if m == 2 else ("Washy" if slot in ("hat_c", "hat_c2", "hat_o", "fx") else "")
+    elif t == "perc": desc = ["Metal", "Rim", "Wood"][m]
+    elif t == "tom": desc = ["Tom", "Conga", "Click"][m]
+    elif t == "fx": desc = ["Zap", "Sweep", "Impact"][m]
+    noun = NOUN[slot]
+    if desc == "Clap" and noun.endswith("Clap"): desc = ""
+    dirty = "Dirty" if x["drive"] > 0.65 and desc != "Dist" else ""
+    return " ".join(w for w in [TAG[kit], dirty, desc, noun] if w)
 
 
 def build():
@@ -223,7 +221,7 @@ def build():
             vals[s + "rev"] = rev
             vals[s + "dly"] = dly
             vals[s + "choke"] = 1 if slot in ("hat_c", "hat_c2", "hat_o") else 0
-            nm = sound_name(slot, ft, ref)
+            nm = sound_name(name, slot, ft)
             # unique names across the library: "Dark Short Metal Perc", "Dark Short Metal Perc 2" ...
             n = names_used.get(nm, 0) + 1
             names_used[nm] = n
@@ -232,7 +230,10 @@ def build():
         for k, v in STYLE[style].items():
             vals[k] = v
         vals["volume"] = 0.0
-        body = ", ".join('{ "%s", %gf }' % (k, v) for k, v in vals.items())
+        def lit(v):   # a valid C++ float literal: 0.0f, 3.71f, -4.1414f
+            s = "%.6g" % v
+            return (s if ("." in s or "e" in s) else s + ".0") + "f"
+        body = ", ".join('{ "%s", %s }' % (k, lit(v)) for k, v in vals.items())
         lines.append('{ "%s", "%s", "%s", { %s }, { %s } },' % (name, style, group, ", ".join('"%s"' % n for n in slot_names), body))
     open(INC, "w").write("\n".join(lines) + "\n")
     report.sort()
@@ -245,7 +246,8 @@ def build():
 
 
 def volume(peaks_file):
-    """peaks: lines 'kit name|peak dBFS' (VOLUME 0) -> VOLUME so that the groove peaks at -1 dBFS."""
+    """peaks: lines 'kit name|true peak dBTP' measured at the kit's current VOLUME -> VOLUME moved by the difference to
+    -1 dBTP (run twice: a peak above the emergency ceiling reads low the first time)."""
     peaks = {}
     for line in open(peaks_file):
         if "|" in line:
@@ -257,8 +259,11 @@ def volume(peaks_file):
         if line.startswith('{ "'):
             name = line.split('"')[1]
             if name in peaks:
-                vol = round(-1.0 - peaks[name], 1)
-                line = line.replace('{ "volume", 0f }', '{ "volume", %gf }' % vol)
+                import re
+                m = re.search(r'\{ "volume", (-?[0-9.]+)f \}', line)
+                old = float(m.group(1))
+                vol = round(old + (-1.0 - peaks[name]), 1)
+                line = line.replace(m.group(0), '{ "volume", %.1ff }' % vol)
         out.append(line)
     open(INC, "w").write("\n".join(out))
     print("volumes set for", len(peaks), "kits")
