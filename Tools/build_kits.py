@@ -5,7 +5,8 @@ cymbals, FX; a role the pack has no one-shot for comes from a pack of the same s
 pack the kits take different references (k-medoids of each role), so two kits of a pack do not repeat each other.
 The mix is set by role and style (levels, a little pan for percussion, sends, choke of the hats, glue and master drive).
 
-  python3 build_kits.py plan                  Референсы/kit_plan.json   (kit -> slot -> reference)
+  python3 build_kits.py plan                  Референсы/kit_plan.json   (kit -> slot -> reference; the kits already
+                                              planned there keep their references, only new kits are planned)
   python3 fit_drums.py fit Референсы/kit_plan.json Референсы/kit_fit.json
   python3 build_kits.py build                 Source/FactoryKits.inc (VOLUME 0 dB)
   powerdrum_tests --kit-peaks > peaks.txt;  python3 build_kits.py volume peaks.txt   (MAIN peak of the groove -> -1 dBFS)"""
@@ -34,7 +35,12 @@ STYLE = {
     "Hard Techno": dict(revSize=0.45, revDamp=0.5, dlyTime=2, dlyFb=0.3, glue=0.35, mDrive=0.2),
     "Industrial":  dict(revSize=0.65, revDamp=0.4, dlyTime=1, dlyFb=0.4, glue=0.4, mDrive=0.35),
 }
-FALLBACK = {"Schranz": [37, 40, 2, 18, 28, 7], "Hard Techno": [7, 28, 18, 2, 40, 29], "Industrial": [29, 4, 7, 28, 40, 37]}
+FALLBACK = {"Schranz": [37, 40, 2, 18, 28, 7], "Hard Techno": [7, 28, 18, 2, 40, 29], "Industrial": [29, 4, 1, 7, 28, 40, 37]}
+# (pack 1 joined the Industrial chain in 1.1.0; the 1.0.0 kits keep the references they were planned with)
+ALT_ROLE = {"crash": "ride", "ride": "crash"}
+# The longest hit the engine makes per role (fitted lengths of 1.0.0: perc 1.2 s, tom and clap 1.5, snare 1.0): a longer
+# reference (the 3.2 s "Bonus Schranz Tools" of #4 are two-bar phrases at 150 BPM) cannot be matched - kits of 1.1.0 skip them
+REACH = {"perc": 1.5, "clap": 1.5, "snare": 1.0, "hat_c": 0.9}   # the few crash one-shots run out: a ride (fitted as a cymbal) instead
 
 # (name, style, group, home pack, kick pack or None)
 KITS = [
@@ -62,7 +68,56 @@ KITS = [
     ("Concrete Dust", "Industrial", "Dark", 29, None),
     ("Rust Belt", "Industrial", "Raw", 4, None),
     ("Machine Hall", "Industrial", "Raw", 4, None),
+    # 1.1.0 (Roman: "more industrial kits"): ten more, each with its own idea (the group) on top of its pack.
+    # Options: kick_dir - the kick from that folder of the pack (heavy, distorted, rumble, processed FX kicks).
+    ("Black Furnace", "Industrial", "Rumble", 29, None, {"kick_dir": "Heavy Kick"}),
+    ("Ash Ritual", "Industrial", "Ritual", 29, None, {"kick_dir": "Heavy Kick"}),
+    ("Steel Foundry", "Industrial", "Metal", 29, None, {"kick_dir": "Assorted Kick"}),
+    ("Impact Chamber", "Industrial", "Processed", 29, None, {"kick_dir": "Processed FX-Kick"}),
+    ("Static Grind", "Industrial", "Noise", 29, None, {}),
+    ("Tunnel Rumble", "Industrial", "Rumble", 4, None, {"kick_dir": "Rumble Kick"}),
+    ("Distortion Plant", "Industrial", "Noise", 4, None, {"kick_dir": "Distorted Kick"}),
+    ("Scrap Yard", "Industrial", "Metal", 4, None, {"kick_dir": "Heavy Kick"}),
+    ("Crusher", "Industrial", "Noise", 1, None, {}),   # around the crushed / harsh kit shots of TSOHT #1
+    ("Smoke Ritual", "Industrial", "Ritual", 4, None, {}),
 ]
+
+# The idea of a group (new industrial groups only; the groups of 1.0.0 keep their kits as they were):
+#   which percussion it picks, how the slots are fitted, its room and master, its mix.
+GROUP_WISH = {"Ritual": {"perc": "low", "perc2": "low"},          # toms and low hits, a big room
+              "Metal": {"perc": "high", "perc2": "high"},         # bright metal, a bright long room
+              "Noise": {"perc": "noisy", "perc2": "noisy"}}       # noisy, crushed hits, more master drive
+GROUP_FIT_ROLE = {"Ritual": {"perc": "perc_low", "perc2": "perc_low"}}   # toms first
+GROUP_STYLE = {
+    ("Industrial", "Rumble"): dict(revSize=0.6, revDamp=0.5, glue=0.45, mDrive=0.4),
+    ("Industrial", "Ritual"): dict(revSize=0.8, revDamp=0.45, dlyTime=1, dlyFb=0.45, glue=0.35, mDrive=0.3),
+    ("Industrial", "Metal"): dict(revSize=0.7, revDamp=0.25, dlyTime=3, dlyFb=0.35),
+    ("Industrial", "Processed"): dict(revSize=0.6, revDamp=0.4, dlyTime=4, dlyFb=0.4),
+    ("Industrial", "Noise"): dict(revSize=0.5, revDamp=0.5, glue=0.5, mDrive=0.5),
+}
+PERC_SLOTS = ("perc_short", "perc_low", "perc", "perc2", "perc_high")
+
+
+def kit_opts(kit):
+    return kit[5] if len(kit) > 5 else {}
+
+
+def mix_of(slot, style, group):
+    """(level, pan, reverb, delay) of a slot: MIX by role, changed by the idea of a new industrial group."""
+    lvl, pan, rev, dly = MIX[slot]
+    g = group if (style, group) in GROUP_STYLE else None
+    if g == "Rumble" and slot == "rumble":
+        lvl, rev = -2.0, 0.05
+    elif g == "Ritual" and slot in PERC_SLOTS:
+        lvl, pan, rev = lvl + 1.0, max(-0.6, min(0.6, pan * 1.3)), min(0.35, rev * 1.6 + 0.04)
+    elif g == "Metal" and slot in ("perc", "perc2", "perc_high", "ride"):
+        rev = rev + 0.08
+        if slot == "ride": lvl = -10.0
+    elif g == "Processed" and slot == "fx":
+        lvl, rev, dly = -9.0, 0.35, 0.2
+    elif g == "Noise" and slot in ("perc", "perc2"):
+        dly = 0.2
+    return lvl, pan, rev, dly
 
 # mix by slot role: level dB (after TRIM puts each hit at -1 dBFS), pan, reverb, delay
 MIX = {
@@ -108,16 +163,22 @@ def plan():
     by = {}
     for q in refs:
         by.setdefault((q["pack"], q["role"]), []).append(q)
-    used = set()
-    pools = {}   # (pack, role) -> medoid list, consumed in order
+    # kits planned before (same index, same name) keep their references: a new kit never changes an old one
+    old = json.load(open(PLAN)) if os.path.exists(PLAN) else {}
+    keep = {k: v for k, v in old.items() if int(k.split(":")[0]) < len(KITS) and v["kit"] == KITS[int(k.split(":")[0])][0]}
+    used = {v["ref"] for v in keep.values()}
+    pools = {}   # (pack, role) -> the unused references, the most different first (k-medoids), then the rest
+    mode = {"strict": False}   # True for the kits of 1.1.0 on (the 1.0.0 kits are kept as planned)
 
-    def take(pack, role, want=None):
+    def take(pack, role, want=None, kick_dir=None):
         key = (pack, role)
         if key not in by:
             return None
         if key not in pools:
-            items = by[key]
-            pools[key] = medoids(items, min(len(items), 24), rng)
+            items = [q for q in by[key] if q["rel"] not in used]
+            first = medoids(items, min(len(items), 24), rng)
+            ids = {q["rel"] for q in first}
+            pools[key] = first + [q for q in items if q["rel"] not in ids]
         for q in pools[key]:
             if q["rel"] in used:
                 continue
@@ -125,22 +186,41 @@ def plan():
             if want == "short" and f["len"] > 0.3: continue
             if want == "low" and f["cent"] > 900: continue
             if want == "high" and f["cent"] < 1500: continue
+            if want == "noisy" and f["flat"] < -8: continue
+            if kick_dir and kick_dir not in os.path.dirname(q["rel"]).split("/")[-1]: continue
             if role == "kick" and f["tonal"] > 9: continue          # no singing kicks (PowerKick lesson)
+            if mode["strict"] and f["len"] > REACH.get(role, 99): continue   # the engine cannot make it that long (a phrase, not a hit)
+            if mode["strict"] and role != "kick" and f["tonal"] > 14: continue   # a held tone in the tail: drums, not synths
             used.add(q["rel"])
             return q
         return None
 
-    out = {}
-    for ki, (name, style, group, home, kickPack) in enumerate(KITS):
+    out = dict(keep)
+    for ki, kit in enumerate(KITS):
+        name, style, group, home, kickPack = kit[:5]
+        if all("%d:%d" % (ki, si) in keep for si in range(len(SLOTS))):
+            continue
+        kick_dir = kit_opts(kit).get("kick_dir")
+        mode["strict"] = ki >= 24
         chain = [home] + [p for p in FALLBACK[style] if p != home]
         for si, slot in enumerate(SLOTS):
             role = REF_ROLE.get(slot, slot)
-            want = {"perc_short": "short", "perc_low": "low", "perc_high": "high"}.get(slot)
+            want = GROUP_WISH.get(group, {}).get(slot) if style == "Industrial" else None
+            want = want or {"perc_short": "short", "perc_low": "low", "perc_high": "high"}.get(slot)
+            if slot == "kick" and kick_dir:
+                q = take(home, "kick", kick_dir=kick_dir)
+                if q:
+                    out["%d:%d" % (ki, si)] = {"kit": name, "slot": si, "role": "kick", "ref": q["rel"], "pack": q["pack"]}
+                    continue
             packs = ([kickPack] if (slot == "kick" and kickPack) else []) + chain
             if role == "rumble":
                 packs = [40, 18] if style != "Hard Techno" else [18, 40]
             q = None
-            for p in packs:
+            if style == "Industrial" and GROUP_WISH.get(group, {}).get(slot):
+                for p in packs:   # the idea of the group first: a low (bright, noisy) hit of any pack of the chain
+                    q = take(p, role, want)
+                    if q: break
+            for p in packs if q is None else []:
                 q = take(p, role, want) or (take(p, role) if want else None)
                 if q: break
             if q is None:
@@ -151,13 +231,25 @@ def plan():
                 for p in sorted({k[0] for k in by}):
                     q = take(p, role)
                     if q: break
+            fit_role = FIT_ROLE.get(slot, role)
+            if q is None and role in ALT_ROLE:   # no crash left anywhere: a ride of the style, fitted as a crash
+                for p in chain:
+                    q = take(p, ALT_ROLE[role])
+                    if q: break
             if q is None:
                 raise SystemExit("no reference for %s %s" % (name, slot))
-            out["%d:%d" % (ki, si)] = {"kit": name, "slot": si, "role": FIT_ROLE.get(slot, role), "ref": q["rel"], "pack": q["pack"]}
-    json.dump(out, open(PLAN, "w"), indent=1)
-    from collections import Counter
-    print("kits:", len(KITS), "sounds:", len(out))
+            if style == "Industrial":
+                gr = GROUP_FIT_ROLE.get(group, {}).get(slot)
+                if gr and not (gr == "perc_low" and q["feat"]["cent"] > 900):   # toms first only for a low hit
+                    fit_role = gr
+            out["%d:%d" % (ki, si)] = {"kit": name, "slot": si, "role": fit_role, "ref": q["rel"], "pack": q["pack"]}
+    json.dump(dict(sorted(out.items(), key=lambda kv: tuple(int(x) for x in kv[0].split(":")))), open(PLAN, "w"), indent=1)
+    print("kits:", len(KITS), "sounds:", len(out), "kept from the plan before:", len(keep))
     print("home pack share:", sum(1 for k, v in out.items() if v["pack"] == KITS[int(k.split(':')[0])][3]) / len(out))
+    for ki, kit in enumerate(KITS):
+        if all("%d:%d" % (ki, si) in keep for si in range(len(SLOTS))):
+            continue
+        print("  %-18s" % kit[0], " ".join("%s:%s" % (SLOTS[si][:6], out["%d:%d" % (ki, si)]["pack"]) for si in range(len(SLOTS))))
 
 
 # Short tag of each kit for its sounds' names ("Signal Dist Kick"): the browser lists sounds under their kit.
@@ -166,7 +258,10 @@ TAG = {"Signal Schranz": "Signal", "Steel Pressure": "Steel", "Night Shift Schra
        "Schranz Vol. One": "Vol One", "Loop Cutter": "Cutter", "Second Wave": "Wave", "Rolling Schranz": "Rolling",
        "Twenty Years Hard": "Twenty", "Dirty Lofi Hard": "Lofi", "Warehouse Pressure": "Warehouse", "Hard Groove Tools": "Groove",
        "Driving Machine": "Driving", "Bunker Hard": "Bunker", "Core Rumble": "Core", "Dark Factory": "Factory",
-       "Iron Mill": "Iron", "Concrete Dust": "Concrete", "Rust Belt": "Rust", "Machine Hall": "Machine"}
+       "Iron Mill": "Iron", "Concrete Dust": "Concrete", "Rust Belt": "Rust", "Machine Hall": "Machine",
+       "Black Furnace": "Furnace", "Ash Ritual": "Ash", "Steel Foundry": "Foundry", "Impact Chamber": "Chamber",
+       "Static Grind": "Static", "Tunnel Rumble": "Tunnel", "Distortion Plant": "Plant", "Scrap Yard": "Scrap",
+       "Smoke Ritual": "Smoke", "Crusher": "Crusher"}
 NOUN = {"kick": "Kick", "perc_short": "Perc", "snare": "Snare", "clap": "Clap", "rumble": "Rumble", "perc_low": "Low Perc",
         "hat_c": "Closed Hat", "perc": "Perc", "hat_c2": "Ghost Hat", "perc2": "Perc", "hat_o": "Open Hat", "perc_high": "High Perc",
         "fx": "FX", "crash": "Crash", "clap2": "Flam Clap", "ride": "Ride"}
@@ -199,7 +294,8 @@ def build():
              "// { kit, category, group, { 16 slot sound names }, { {param, plain value}... } }"]
     names_used = {}
     report = []
-    for ki, (name, style, group, home, kickPack) in enumerate(KITS):
+    for ki, kit in enumerate(KITS):
+        name, style, group, home, kickPack = kit[:5]
         vals = {}
         slot_names = []
         for si, slot in enumerate(SLOTS):
@@ -215,7 +311,7 @@ def build():
             vals[s + "driveMode"] = ft["driveMode"]
             vals[s + "trim"] = ft["trim"]
             vals[s + "width"] = round(float(x["width"]), 3)
-            lvl, pan, rev, dly = MIX[slot]
+            lvl, pan, rev, dly = mix_of(slot, style, group)
             vals[s + "level"] = lvl
             vals[s + "pan"] = pan
             vals[s + "rev"] = rev
@@ -227,7 +323,7 @@ def build():
             names_used[nm] = n
             slot_names.append(nm if n == 1 else "%s %d" % (nm, n))
             report.append((ft["dist"], name, slot, ft["type"], ft["tonal"], ft["ref_tonal"]))
-        for k, v in STYLE[style].items():
+        for k, v in dict(STYLE[style], **GROUP_STYLE.get((style, group), {})).items():
             vals[k] = v
         vals["volume"] = 0.0
         def lit(v):   # a valid C++ float literal: 0.0f, 3.71f, -4.1414f

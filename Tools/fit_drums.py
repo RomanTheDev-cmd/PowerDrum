@@ -7,7 +7,7 @@ A sound = TYPE (fixed by the slot role, with alternatives tried), MODEL (all thr
 DRIVE, DRIVE MODE (SAT, CLIP, FOLD; CRUSH for lo-fi), WIDTH. The fit: a few random starts per model, then an adaptive
 (1+1)-ES with per-parameter steps. The distance (drum_features.distance) penalises a tail MORE tonal than the
 reference (Roman: drums, not synths). TRIM is set afterwards: the hit peaks at -1 dBFS at LEVEL 0 dB.
-Env: PD_TESTS (render server), FIT_ITERS (220), FIT_WORKERS (9)."""
+Env: PD_TESTS (render server), FIT_ITERS (220), FIT_WORKERS (9), FIT_FROM_KIT (refit: only kits from this index)."""
 import json, math, os, pickle, random, subprocess, sys, time
 from concurrent.futures import ProcessPoolExecutor
 
@@ -155,8 +155,9 @@ def main():
         done = json.load(open(out_path))
         iters = int(os.environ.get("FIT_ITERS", "1800"))
         only = set(os.environ.get("FIT_KEYS", "").split()) - {""}
+        from_kit = int(os.environ.get("FIT_FROM_KIT", "0"))   # only the kits from this index (new kits, old ones as they are)
         jobs = [(k, plan[k]["role"], refs[plan[k]["ref"]]["feat"], (hash(k) + 7) & 0xffff, iters) for k, v in done.items()
-                if (k in only if only else v["dist"] > thr)]
+                if int(k.split(":")[0]) >= from_kit and (k in only if only else v["dist"] > thr)]
         print("refitting", len(jobs), "sounds above", thr, flush=True)
         from concurrent.futures import as_completed
         better = 0

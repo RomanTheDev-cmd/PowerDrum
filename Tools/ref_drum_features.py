@@ -21,9 +21,13 @@ SKIP_DIR = re.compile(r"synth|vocal|bassline|bass loop|drives|rolls|builder shot
 
 
 def role_of(rel):
+    d = os.path.basename(os.path.dirname(rel)).lower()   # the file's own folder decides
+    if d == "htx shots":          # the one-shots of TSOHT #1 (Hard & Dark Industrial) in the demo folder of #4: industrial
+        return "perc"             # kit shots (crushed, harsh, disto), the only material of that pack here
     if SKIP_PATH.search(os.path.dirname(rel)):
         return None
-    d = os.path.basename(os.path.dirname(rel)).lower()   # the file's own folder decides
+    if d.endswith("atmo & fx"):   # #4 has no FX shots: its atmo FX, the noisy ones only (filtered in measure())
+        return "fx_atmo"
     if SKIP_DIR.search(d):
         return None
     if "rumble" in d and ("builder" in d or "rumble shots" in d):
@@ -54,8 +58,8 @@ def role_of(rel):
 
 
 def pack_of(rel):
-    m = re.match(r"TSOHT #(\d+)", rel)
-    return int(m.group(1)) if m else 0
+    m = re.findall(r"TSOHT #(\d+)", rel)      # the innermost pack: a demo of #1 inside the folder of #4 is #1
+    return int(m[-1]) if m else 0
 
 
 def measure(args):
@@ -70,6 +74,10 @@ def measure(args):
     if f is None:
         return None
     r = role
+    if r == "fx_atmo":            # drums, not synths: a held tone or a drone is no FX shot for PowerDrum
+        if f["tonal"] > 12:
+            return None
+        r = "fx"
     if r == "hat":
         r = "hat_c" if f["len"] < 0.25 else "hat_o"
     if r == "ride" and ("crash" in os.path.basename(rel).lower() or "cym" in os.path.basename(rel).lower()) and "ride" not in os.path.basename(rel).lower():
@@ -78,7 +86,7 @@ def measure(args):
 
 
 def main():
-    jobs = []
+    jobs, seen = [], set()
     for dp, _, files in os.walk(ROOT):
         for fn in files:
             if not fn.lower().endswith(".wav"):
@@ -86,7 +94,9 @@ def main():
             path = os.path.join(dp, fn)
             rel = os.path.relpath(path, ROOT)
             role = role_of(rel)
-            if role:
+            same = (pack_of(rel), fn, os.path.getsize(path))   # the HTX demo shots ship twice (in #4 and in #11)
+            if role and same not in seen:
+                seen.add(same)
                 jobs.append((path, rel, role))
     print("hits to measure:", len(jobs))
     with ProcessPoolExecutor(9) as ex:
