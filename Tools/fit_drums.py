@@ -7,7 +7,8 @@ A sound = TYPE (fixed by the slot role, with alternatives tried), MODEL (all thr
 DRIVE, DRIVE MODE (SAT, CLIP, FOLD; CRUSH for lo-fi), WIDTH. The fit: a few random starts per model, then an adaptive
 (1+1)-ES with per-parameter steps. The distance (drum_features.distance) penalises a tail MORE tonal than the
 reference (Roman: drums, not synths). TRIM is set afterwards: the hit peaks at -1 dBFS at LEVEL 0 dB.
-Env: PD_TESTS (render server), FIT_ITERS (220), FIT_WORKERS (9), FIT_FROM_KIT (refit: only kits from this index)."""
+Env: PD_TESTS (render server), FIT_ITERS (220), FIT_WORKERS (9), FIT_FROM_KIT (refit: only kits from this index),
+FIT_KEEP_BETTER=1 (refit with FIT_KEYS: keep the stored fit unless the new one is closer)."""
 import json, math, os, pickle, random, subprocess, sys, time
 from concurrent.futures import ProcessPoolExecutor
 
@@ -166,7 +167,8 @@ def main():
             for fut in as_completed(futures):
                 key, res = fut.result()
                 # FIT_KEYS (after an engine change) always takes the new fit: the stored one was measured on the old engine
-                if only or res["dist"] < done[key]["dist"]:
+                keep_better = os.environ.get("FIT_KEEP_BETTER") == "1"   # FIT_KEYS, but only an improvement replaces
+                if (only and not keep_better) or res["dist"] < done[key]["dist"]:
                     done[key] = res; better += 1
                 json.dump(done, open(out_path, "w"), indent=1)
         print("improved", better, "of", len(jobs), flush=True)
