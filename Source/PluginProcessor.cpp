@@ -2,18 +2,14 @@
 #include "PluginEditor.h"
 #include "Groove.h"
 
-namespace
-{
-juce::AudioProcessor::BusesProperties makeBuses()
+juce::AudioProcessor::BusesProperties PowerDrumProcessor::makeBuses()
 {
     // MAIN + OUT 1..16. In AU every bus is always on (Logic: "Multi Output (17xStereo)" gives each its own channel);
     // in VST3 hosts the extra outputs start off, and a slot routed to an output that is off plays on MAIN.
-    auto b = juce::AudioProcessor::BusesProperties().withOutput ("Main", juce::AudioChannelSet::stereo(), true);
+    auto b = BusesProperties().withOutput ("Main", juce::AudioChannelSet::stereo(), true);
     for (int k = 1; k <= pd::numSlots; ++k)
         b = b.withOutput ("Out " + juce::String (k), juce::AudioChannelSet::stereo(), false);
     return b;
-}
-
 }
 
 PowerDrumProcessor::PowerDrumProcessor()

@@ -64,6 +64,7 @@ public:
     std::atomic<float> meterL { 0.0f }, meterR { 0.0f };
 
 private:
+    static BusesProperties makeBuses();
     void addGrooveNotes (juce::MidiBuffer& midi, int n, double bpm);
 
     juce::String kitName { "Init" };

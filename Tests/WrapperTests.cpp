@@ -156,12 +156,44 @@ void testEditor()
         expect (inside, "editor " + juce::String (w) + "x" + juce::String (h) + ": everything inside the window");
     }
 }
+
+void snapshot (const juce::File& dir)
+{
+    dir.createDirectory();
+    PowerDrumProcessor p;
+    p.prepareToPlay (48000.0, 512);
+    std::unique_ptr<juce::AudioProcessorEditor> ed (p.createEditor());
+    auto save = [&dir] (juce::Component& c, const juce::String& name)
+    {
+        const auto img = c.createComponentSnapshot (c.getLocalBounds(), true, 1.0f);
+        juce::FileOutputStream out (dir.getChildFile (name));
+        out.setPosition (0); out.truncate();
+        juce::PNGImageFormat().writeImageToStream (img, out);
+    };
+    auto* editor = dynamic_cast<PowerDrumEditor*> (ed.get());
+    ed->setSize (1080, 720);
+    editor->selectSlot (0);
+    save (*ed, "main.png");
+    editor->selectSlot (6);
+    save (*ed, "main_hat.png");
+    if (auto* kb = ed->findChildWithID ("kitButton"))
+        if (auto* b = dynamic_cast<juce::Button*> (kb)) { b->onClick(); save (*ed, "browser.png"); b->onClick(); }
+    pd::setMultiOut (p.state, true);
+    editor->selectSlot (3);
+    save (*ed, "main_multi.png");
+    ed->setSize (864, 576); save (*ed, "main_small.png");
+    ed->setSize (1620, 1080); save (*ed, "main_large.png");
+}
 }
 
 int main (int argc, char** argv)
 {
     juce::ScopedJuceInitialiser_GUI init;
-    juce::ignoreUnused (argc, argv);
+    if (argc > 2 && juce::String (argv[1]) == "--snapshot")
+    {
+        snapshot (juce::File::getCurrentWorkingDirectory().getChildFile (juce::String::fromUTF8 (argv[2])));
+        return 0;
+    }
     testBuses();
     testStateRoundTrip();
     testKitsAndSounds();

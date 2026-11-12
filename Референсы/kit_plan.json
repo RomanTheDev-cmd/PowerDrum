@@ -1,0 +1,2690 @@
+{
+ "0:0": {
+  "kit": "Signal Schranz",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #37 Schranz Signature Pack/01 Signature Schranz Sounds/03 SSP Signature Schranz Kick Drums/SSP Signature Schranz Kick 13.wav",
+  "pack": 37
+ },
+ "0:1": {
+  "kit": "Signal Schranz",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 19.wav",
+  "pack": 37
+ },
+ "0:2": {
+  "kit": "Signal Schranz",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/04 SSP Processed Snare Shots/SSP Processed Snare Shot 2.wav",
+  "pack": 37
+ },
+ "0:3": {
+  "kit": "Signal Schranz",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/03 SSP Hard Clap Shots/SSP Hard Clap Shot 8.wav",
+  "pack": 37
+ },
+ "0:4": {
+  "kit": "Signal Schranz",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 1.wav",
+  "pack": 40
+ },
+ "0:5": {
+  "kit": "Signal Schranz",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 49.wav",
+  "pack": 37
+ },
+ "0:6": {
+  "kit": "Signal Schranz",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/06 SSP Closed Hi-Hat Shots/SSP Closed Hi-Hat Shot 4.wav",
+  "pack": 37
+ },
+ "0:7": {
+  "kit": "Signal Schranz",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 37.wav",
+  "pack": 37
+ },
+ "0:8": {
+  "kit": "Signal Schranz",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/06 SSP Closed Hi-Hat Shots/SSP Closed Hi-Hat Shot 13.wav",
+  "pack": 37
+ },
+ "0:9": {
+  "kit": "Signal Schranz",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 10.wav",
+  "pack": 37
+ },
+ "0:10": {
+  "kit": "Signal Schranz",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/05 SSP Open Hi-Hat Shots/SSP Open Hi-Hat Shot 4.wav",
+  "pack": 37
+ },
+ "0:11": {
+  "kit": "Signal Schranz",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 17.wav",
+  "pack": 37
+ },
+ "0:12": {
+  "kit": "Signal Schranz",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 9.wav",
+  "pack": 37
+ },
+ "0:13": {
+  "kit": "Signal Schranz",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/08 SSP FX Crashes/SSP FX Crash Shot 1.wav",
+  "pack": 37
+ },
+ "0:14": {
+  "kit": "Signal Schranz",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/03 SSP Hard Clap Shots/SSP Hard Clap Shot 9.wav",
+  "pack": 37
+ },
+ "0:15": {
+  "kit": "Signal Schranz",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 5.wav",
+  "pack": 37
+ },
+ "1:0": {
+  "kit": "Steel Pressure",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #37 Schranz Signature Pack/01 Signature Schranz Sounds/03 SSP Signature Schranz Kick Drums/SSP Signature Schranz Kick 62.wav",
+  "pack": 37
+ },
+ "1:1": {
+  "kit": "Steel Pressure",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 14.wav",
+  "pack": 37
+ },
+ "1:2": {
+  "kit": "Steel Pressure",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/04 SSP Processed Snare Shots/SSP Processed Snare Shot 3.wav",
+  "pack": 37
+ },
+ "1:3": {
+  "kit": "Steel Pressure",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/03 SSP Hard Clap Shots/SSP Hard Clap Shot 10.wav",
+  "pack": 37
+ },
+ "1:4": {
+  "kit": "Steel Pressure",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 36.wav",
+  "pack": 40
+ },
+ "1:5": {
+  "kit": "Steel Pressure",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 28.wav",
+  "pack": 37
+ },
+ "1:6": {
+  "kit": "Steel Pressure",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/06 SSP Closed Hi-Hat Shots/SSP Closed Hi-Hat Shot 12.wav",
+  "pack": 37
+ },
+ "1:7": {
+  "kit": "Steel Pressure",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 16.wav",
+  "pack": 37
+ },
+ "1:8": {
+  "kit": "Steel Pressure",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/06 SSP Closed Hi-Hat Shots/SSP Closed Hi-Hat Shot 5.wav",
+  "pack": 37
+ },
+ "1:9": {
+  "kit": "Steel Pressure",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 12.wav",
+  "pack": 37
+ },
+ "1:10": {
+  "kit": "Steel Pressure",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/05 SSP Open Hi-Hat Shots/SSP Open Hi-Hat Shot 5.wav",
+  "pack": 37
+ },
+ "1:11": {
+  "kit": "Steel Pressure",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 39.wav",
+  "pack": 37
+ },
+ "1:12": {
+  "kit": "Steel Pressure",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 10.wav",
+  "pack": 37
+ },
+ "1:13": {
+  "kit": "Steel Pressure",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/08 SSP FX Crashes/SSP FX Crash Shot 2.wav",
+  "pack": 37
+ },
+ "1:14": {
+  "kit": "Steel Pressure",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/03 SSP Hard Clap Shots/SSP Hard Clap Shot 1.wav",
+  "pack": 37
+ },
+ "1:15": {
+  "kit": "Steel Pressure",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 4.wav",
+  "pack": 37
+ },
+ "2:0": {
+  "kit": "Night Shift Schranz",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #37 Schranz Signature Pack/01 Signature Schranz Sounds/03 SSP Signature Schranz Kick Drums/SSP Signature Schranz Kick 27.wav",
+  "pack": 37
+ },
+ "2:1": {
+  "kit": "Night Shift Schranz",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 44.wav",
+  "pack": 37
+ },
+ "2:2": {
+  "kit": "Night Shift Schranz",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/04 SSP Processed Snare Shots/SSP Processed Snare Shot 1.wav",
+  "pack": 37
+ },
+ "2:3": {
+  "kit": "Night Shift Schranz",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/03 SSP Hard Clap Shots/SSP Hard Clap Shot 2.wav",
+  "pack": 37
+ },
+ "2:4": {
+  "kit": "Night Shift Schranz",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 43.wav",
+  "pack": 40
+ },
+ "2:5": {
+  "kit": "Night Shift Schranz",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 35.wav",
+  "pack": 37
+ },
+ "2:6": {
+  "kit": "Night Shift Schranz",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/06 SSP Closed Hi-Hat Shots/SSP Closed Hi-Hat Shot 7.wav",
+  "pack": 37
+ },
+ "2:7": {
+  "kit": "Night Shift Schranz",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 29.wav",
+  "pack": 37
+ },
+ "2:8": {
+  "kit": "Night Shift Schranz",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/06 SSP Closed Hi-Hat Shots/SSP Closed Hi-Hat Shot 10.wav",
+  "pack": 37
+ },
+ "2:9": {
+  "kit": "Night Shift Schranz",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 30.wav",
+  "pack": 37
+ },
+ "2:10": {
+  "kit": "Night Shift Schranz",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/05 SSP Open Hi-Hat Shots/SSP Open Hi-Hat Shot 7.wav",
+  "pack": 37
+ },
+ "2:11": {
+  "kit": "Night Shift Schranz",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/01 SSP Mixed Percussion Shots/SSP Mixed Percussion Shot 6.wav",
+  "pack": 37
+ },
+ "2:12": {
+  "kit": "Night Shift Schranz",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 8.wav",
+  "pack": 37
+ },
+ "2:13": {
+  "kit": "Night Shift Schranz",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/08 SSP FX Crashes/SSP FX Crash Shot 3.wav",
+  "pack": 37
+ },
+ "2:14": {
+  "kit": "Night Shift Schranz",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/03 SSP Hard Clap Shots/SSP Hard Clap Shot 3.wav",
+  "pack": 37
+ },
+ "2:15": {
+  "kit": "Night Shift Schranz",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 6.wav",
+  "pack": 37
+ },
+ "3:0": {
+  "kit": "Modern Schranz",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/02 Signature Kick Shots/MS Signature Kick Shot 15.wav",
+  "pack": 40
+ },
+ "3:1": {
+  "kit": "Modern Schranz",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 47.wav",
+  "pack": 40
+ },
+ "3:2": {
+  "kit": "Modern Schranz",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/04 Snares/MS Snare Shot 12.wav",
+  "pack": 40
+ },
+ "3:3": {
+  "kit": "Modern Schranz",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/03 Claps/MS Clap Shot 3.wav",
+  "pack": 40
+ },
+ "3:4": {
+  "kit": "Modern Schranz",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 23.wav",
+  "pack": 40
+ },
+ "3:5": {
+  "kit": "Modern Schranz",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 37.wav",
+  "pack": 40
+ },
+ "3:6": {
+  "kit": "Modern Schranz",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Closed Hats/MS Closed Hat 7.wav",
+  "pack": 40
+ },
+ "3:7": {
+  "kit": "Modern Schranz",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/01 Signature Shots/MS Signature Shot 9.wav",
+  "pack": 40
+ },
+ "3:8": {
+  "kit": "Modern Schranz",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Closed Hats/MS Closed Hat 11.wav",
+  "pack": 40
+ },
+ "3:9": {
+  "kit": "Modern Schranz",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 14.wav",
+  "pack": 40
+ },
+ "3:10": {
+  "kit": "Modern Schranz",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Open Hats/MS Open Hat 9.wav",
+  "pack": 40
+ },
+ "3:11": {
+  "kit": "Modern Schranz",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 21.wav",
+  "pack": 40
+ },
+ "3:12": {
+  "kit": "Modern Schranz",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/05 Atmo & Effects/01 Impacts/MS Impact Shot 6.wav",
+  "pack": 40
+ },
+ "3:13": {
+  "kit": "Modern Schranz",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/05 Atmo & Effects/07 Noise & Crash/MS Noise & Crash 2.wav",
+  "pack": 40
+ },
+ "3:14": {
+  "kit": "Modern Schranz",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/03 Claps/MS Clap Shot 2.wav",
+  "pack": 40
+ },
+ "3:15": {
+  "kit": "Modern Schranz",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Rides & Cymbals/MS Ride & Cymbal 2.wav",
+  "pack": 40
+ },
+ "4:0": {
+  "kit": "Rumble Engine",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/02 Signature Kick Shots/MS Signature Kick Shot 23.wav",
+  "pack": 40
+ },
+ "4:1": {
+  "kit": "Rumble Engine",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 7.wav",
+  "pack": 40
+ },
+ "4:2": {
+  "kit": "Rumble Engine",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/04 Snares/MS Snare Shot 13.wav",
+  "pack": 40
+ },
+ "4:3": {
+  "kit": "Rumble Engine",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/03 Claps/MS Clap Shot 1.wav",
+  "pack": 40
+ },
+ "4:4": {
+  "kit": "Rumble Engine",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 20.wav",
+  "pack": 40
+ },
+ "4:5": {
+  "kit": "Rumble Engine",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/01 Signature Shots/MS Signature Shot 3.wav",
+  "pack": 40
+ },
+ "4:6": {
+  "kit": "Rumble Engine",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Closed Hats/MS Closed Hat 10.wav",
+  "pack": 40
+ },
+ "4:7": {
+  "kit": "Rumble Engine",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 23.wav",
+  "pack": 40
+ },
+ "4:8": {
+  "kit": "Rumble Engine",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Closed Hats/MS Closed Hat 6.wav",
+  "pack": 40
+ },
+ "4:9": {
+  "kit": "Rumble Engine",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/01 Signature Shots/MS Signature Shot 5.wav",
+  "pack": 40
+ },
+ "4:10": {
+  "kit": "Rumble Engine",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Open Hats/MS Open Hat 8.wav",
+  "pack": 40
+ },
+ "4:11": {
+  "kit": "Rumble Engine",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 1.wav",
+  "pack": 40
+ },
+ "4:12": {
+  "kit": "Rumble Engine",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/05 Atmo & Effects/01 Impacts/MS Impact Shot 4.wav",
+  "pack": 40
+ },
+ "4:13": {
+  "kit": "Rumble Engine",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/05 Atmo & Effects/07 Noise & Crash/MS Noise & Crash 1.wav",
+  "pack": 40
+ },
+ "4:14": {
+  "kit": "Rumble Engine",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/03 Claps/MS Clap Shot 5.wav",
+  "pack": 40
+ },
+ "4:15": {
+  "kit": "Rumble Engine",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Rides & Cymbals/MS Ride & Cymbal 3.wav",
+  "pack": 40
+ },
+ "5:0": {
+  "kit": "Pulse Factory",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/02 Signature Kick Shots/MS Signature Kick Shot 2.wav",
+  "pack": 40
+ },
+ "5:1": {
+  "kit": "Pulse Factory",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 24.wav",
+  "pack": 40
+ },
+ "5:2": {
+  "kit": "Pulse Factory",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/04 Snares/MS Snare Shot 11.wav",
+  "pack": 40
+ },
+ "5:3": {
+  "kit": "Pulse Factory",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/03 Claps/MS Clap Shot 4.wav",
+  "pack": 40
+ },
+ "5:4": {
+  "kit": "Pulse Factory",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 40.wav",
+  "pack": 40
+ },
+ "5:5": {
+  "kit": "Pulse Factory",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/01 Signature Shots/MS Signature Shot 4.wav",
+  "pack": 40
+ },
+ "5:6": {
+  "kit": "Pulse Factory",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Closed Hats/MS Closed Hat 4.wav",
+  "pack": 40
+ },
+ "5:7": {
+  "kit": "Pulse Factory",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 5.wav",
+  "pack": 40
+ },
+ "5:8": {
+  "kit": "Pulse Factory",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Closed Hats/MS Closed Hat 12.wav",
+  "pack": 40
+ },
+ "5:9": {
+  "kit": "Pulse Factory",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/02 Perc Shots/MS Perc Shot 42.wav",
+  "pack": 40
+ },
+ "5:10": {
+  "kit": "Pulse Factory",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Open Hats/MS Open Hat 20.wav",
+  "pack": 40
+ },
+ "5:11": {
+  "kit": "Pulse Factory",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/01 Signature Shots/MS Signature Shot 19.wav",
+  "pack": 40
+ },
+ "5:12": {
+  "kit": "Pulse Factory",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/05 Atmo & Effects/01 Impacts/MS Impact Shot 5.wav",
+  "pack": 40
+ },
+ "5:13": {
+  "kit": "Pulse Factory",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/05 Atmo & Effects/07 Noise & Crash/MS Noise & Crash 6.wav",
+  "pack": 40
+ },
+ "5:14": {
+  "kit": "Pulse Factory",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/03 Claps/MS Clap Shot 6.wav",
+  "pack": 40
+ },
+ "5:15": {
+  "kit": "Pulse Factory",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/03 Drum Shots/Rides & Cymbals/MS Ride & Cymbal 1.wav",
+  "pack": 40
+ },
+ "6:0": {
+  "kit": "Classic Schranz",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #11 Classic Schranz Tools By Arkus P/01 ARK Kick Drum Shots/ARK Kick Drum Shot 10.wav",
+  "pack": 11
+ },
+ "6:1": {
+  "kit": "Classic Schranz",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc21.wav",
+  "pack": 2
+ },
+ "6:2": {
+  "kit": "Classic Schranz",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Snares/SVESnare06.wav",
+  "pack": 2
+ },
+ "6:3": {
+  "kit": "Classic Schranz",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Claps/SVEClap02.wav",
+  "pack": 2
+ },
+ "6:4": {
+  "kit": "Classic Schranz",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 13.wav",
+  "pack": 40
+ },
+ "6:5": {
+  "kit": "Classic Schranz",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc20.wav",
+  "pack": 2
+ },
+ "6:6": {
+  "kit": "Classic Schranz",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat22.wav",
+  "pack": 2
+ },
+ "6:7": {
+  "kit": "Classic Schranz",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc24.wav",
+  "pack": 2
+ },
+ "6:8": {
+  "kit": "Classic Schranz",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat23.wav",
+  "pack": 2
+ },
+ "6:9": {
+  "kit": "Classic Schranz",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc01.wav",
+  "pack": 2
+ },
+ "6:10": {
+  "kit": "Classic Schranz",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat09.wav",
+  "pack": 2
+ },
+ "6:11": {
+  "kit": "Classic Schranz",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc09.wav",
+  "pack": 2
+ },
+ "6:12": {
+  "kit": "Classic Schranz",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 1.wav",
+  "pack": 37
+ },
+ "6:13": {
+  "kit": "Classic Schranz",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/08 SSP FX Crashes/SSP FX Crash Shot 4.wav",
+  "pack": 37
+ },
+ "6:14": {
+  "kit": "Classic Schranz",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Claps/SVEClap03.wav",
+  "pack": 2
+ },
+ "6:15": {
+  "kit": "Classic Schranz",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 7.wav",
+  "pack": 37
+ },
+ "7:0": {
+  "kit": "Old School Tools",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #11 Classic Schranz Tools By Arkus P/01 ARK Kick Drum Shots/ARK Kick Drum Shot 1.wav",
+  "pack": 11
+ },
+ "7:1": {
+  "kit": "Old School Tools",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc19.wav",
+  "pack": 2
+ },
+ "7:2": {
+  "kit": "Old School Tools",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Snares/SVESnare05.wav",
+  "pack": 2
+ },
+ "7:3": {
+  "kit": "Old School Tools",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Claps/SVEClap01.wav",
+  "pack": 2
+ },
+ "7:4": {
+  "kit": "Old School Tools",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 7.wav",
+  "pack": 40
+ },
+ "7:5": {
+  "kit": "Old School Tools",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc22.wav",
+  "pack": 2
+ },
+ "7:6": {
+  "kit": "Old School Tools",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat08.wav",
+  "pack": 2
+ },
+ "7:7": {
+  "kit": "Old School Tools",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc23.wav",
+  "pack": 2
+ },
+ "7:8": {
+  "kit": "Old School Tools",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat24.wav",
+  "pack": 2
+ },
+ "7:9": {
+  "kit": "Old School Tools",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc26.wav",
+  "pack": 2
+ },
+ "7:10": {
+  "kit": "Old School Tools",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat21.wav",
+  "pack": 2
+ },
+ "7:11": {
+  "kit": "Old School Tools",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc27.wav",
+  "pack": 2
+ },
+ "7:12": {
+  "kit": "Old School Tools",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 3.wav",
+  "pack": 37
+ },
+ "7:13": {
+  "kit": "Old School Tools",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/08 SSP FX Crashes/SSP FX Crash Shot 5.wav",
+  "pack": 37
+ },
+ "7:14": {
+  "kit": "Old School Tools",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Claps/SVEClap04.wav",
+  "pack": 2
+ },
+ "7:15": {
+  "kit": "Old School Tools",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 3.wav",
+  "pack": 37
+ },
+ "8:0": {
+  "kit": "Schranz Vol. One",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Kicks/Complex Kicks/SVEKick10C.wav",
+  "pack": 2
+ },
+ "8:1": {
+  "kit": "Schranz Vol. One",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc30.wav",
+  "pack": 2
+ },
+ "8:2": {
+  "kit": "Schranz Vol. One",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Snares/SVESnare04.wav",
+  "pack": 2
+ },
+ "8:3": {
+  "kit": "Schranz Vol. One",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Claps/SVEClap05.wav",
+  "pack": 2
+ },
+ "8:4": {
+  "kit": "Schranz Vol. One",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 21.wav",
+  "pack": 40
+ },
+ "8:5": {
+  "kit": "Schranz Vol. One",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc18.wav",
+  "pack": 2
+ },
+ "8:6": {
+  "kit": "Schranz Vol. One",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat19.wav",
+  "pack": 2
+ },
+ "8:7": {
+  "kit": "Schranz Vol. One",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc25.wav",
+  "pack": 2
+ },
+ "8:8": {
+  "kit": "Schranz Vol. One",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat25.wav",
+  "pack": 2
+ },
+ "8:9": {
+  "kit": "Schranz Vol. One",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc15.wav",
+  "pack": 2
+ },
+ "8:10": {
+  "kit": "Schranz Vol. One",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat20.wav",
+  "pack": 2
+ },
+ "8:11": {
+  "kit": "Schranz Vol. One",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc17.wav",
+  "pack": 2
+ },
+ "8:12": {
+  "kit": "Schranz Vol. One",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 2.wav",
+  "pack": 37
+ },
+ "8:13": {
+  "kit": "Schranz Vol. One",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/09 SSP Reverse Crashes/SSP Reverse Crash 1.wav",
+  "pack": 37
+ },
+ "8:14": {
+  "kit": "Schranz Vol. One",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Claps/SVEClap06.wav",
+  "pack": 2
+ },
+ "8:15": {
+  "kit": "Schranz Vol. One",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 2.wav",
+  "pack": 37
+ },
+ "9:0": {
+  "kit": "Loop Cutter",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Kicks/Complex Kicks/SVEKick07C.wav",
+  "pack": 2
+ },
+ "9:1": {
+  "kit": "Loop Cutter",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc29.wav",
+  "pack": 2
+ },
+ "9:2": {
+  "kit": "Loop Cutter",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Snares/SVESnare01.wav",
+  "pack": 2
+ },
+ "9:3": {
+  "kit": "Loop Cutter",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/03 SSP Hard Clap Shots/SSP Hard Clap Shot 7.wav",
+  "pack": 37
+ },
+ "9:4": {
+  "kit": "Loop Cutter",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 35.wav",
+  "pack": 40
+ },
+ "9:5": {
+  "kit": "Loop Cutter",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc28.wav",
+  "pack": 2
+ },
+ "9:6": {
+  "kit": "Loop Cutter",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat26.wav",
+  "pack": 2
+ },
+ "9:7": {
+  "kit": "Loop Cutter",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc16.wav",
+  "pack": 2
+ },
+ "9:8": {
+  "kit": "Loop Cutter",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat03.wav",
+  "pack": 2
+ },
+ "9:9": {
+  "kit": "Loop Cutter",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc03.wav",
+  "pack": 2
+ },
+ "9:10": {
+  "kit": "Loop Cutter",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Hats/SVEHihat18.wav",
+  "pack": 2
+ },
+ "9:11": {
+  "kit": "Loop Cutter",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #2 - Hardtechno & Schranz Vol.1/Drum One Shots/Perc/SVEPerc13.wav",
+  "pack": 2
+ },
+ "9:12": {
+  "kit": "Loop Cutter",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 6.wav",
+  "pack": 37
+ },
+ "9:13": {
+  "kit": "Loop Cutter",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/09 SSP Reverse Crashes/SSP Reverse Crash 3.wav",
+  "pack": 37
+ },
+ "9:14": {
+  "kit": "Loop Cutter",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/03 SSP Hard Clap Shots/SSP Hard Clap Shot 6.wav",
+  "pack": 37
+ },
+ "9:15": {
+  "kit": "Loop Cutter",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 1.wav",
+  "pack": 37
+ },
+ "10:0": {
+  "kit": "Second Wave",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/01 SVE2 Kick Shots/SVE2 Kick 3.2.wav",
+  "pack": 18
+ },
+ "10:1": {
+  "kit": "Second Wave",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 33.wav",
+  "pack": 18
+ },
+ "10:2": {
+  "kit": "Second Wave",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/04 SSP Processed Snare Shots/SSP Processed Snare Shot 15.wav",
+  "pack": 37
+ },
+ "10:3": {
+  "kit": "Second Wave",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/03 SVE2 Clap Shots/SVE2 Clap 09.wav",
+  "pack": 18
+ },
+ "10:4": {
+  "kit": "Second Wave",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 18.wav",
+  "pack": 40
+ },
+ "10:5": {
+  "kit": "Second Wave",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 15.wav",
+  "pack": 18
+ },
+ "10:6": {
+  "kit": "Second Wave",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/04 SVE2 Closed Hi-Hats/SVE2 Ch 04.wav",
+  "pack": 18
+ },
+ "10:7": {
+  "kit": "Second Wave",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 31.wav",
+  "pack": 18
+ },
+ "10:8": {
+  "kit": "Second Wave",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/04 SVE2 Closed Hi-Hats/SVE2 Ch 10.wav",
+  "pack": 18
+ },
+ "10:9": {
+  "kit": "Second Wave",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 17.wav",
+  "pack": 18
+ },
+ "10:10": {
+  "kit": "Second Wave",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/05 SVE2 Open Hi-Hats/SVE2 Oh 09.wav",
+  "pack": 18
+ },
+ "10:11": {
+  "kit": "Second Wave",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 07.wav",
+  "pack": 18
+ },
+ "10:12": {
+  "kit": "Second Wave",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 7.wav",
+  "pack": 37
+ },
+ "10:13": {
+  "kit": "Second Wave",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/09 SSP Reverse Crashes/SSP Reverse Crash 2.wav",
+  "pack": 37
+ },
+ "10:14": {
+  "kit": "Second Wave",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/03 SVE2 Clap Shots/SVE2 Clap 08.wav",
+  "pack": 18
+ },
+ "10:15": {
+  "kit": "Second Wave",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 10.wav",
+  "pack": 37
+ },
+ "11:0": {
+  "kit": "Rolling Schranz",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/01 SVE2 Kick Shots/SVE2 Kick 5.1.wav",
+  "pack": 18
+ },
+ "11:1": {
+  "kit": "Rolling Schranz",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 36.wav",
+  "pack": 18
+ },
+ "11:2": {
+  "kit": "Rolling Schranz",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/04 SSP Processed Snare Shots/SSP Processed Snare Shot 14.wav",
+  "pack": 37
+ },
+ "11:3": {
+  "kit": "Rolling Schranz",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/03 SVE2 Clap Shots/SVE2 Clap 06.wav",
+  "pack": 18
+ },
+ "11:4": {
+  "kit": "Rolling Schranz",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 24.wav",
+  "pack": 40
+ },
+ "11:5": {
+  "kit": "Rolling Schranz",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 11.wav",
+  "pack": 18
+ },
+ "11:6": {
+  "kit": "Rolling Schranz",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/04 SVE2 Closed Hi-Hats/SVE2 Ch 05.wav",
+  "pack": 18
+ },
+ "11:7": {
+  "kit": "Rolling Schranz",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 05.wav",
+  "pack": 18
+ },
+ "11:8": {
+  "kit": "Rolling Schranz",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/04 SVE2 Closed Hi-Hats/SVE2 Ch 07.wav",
+  "pack": 18
+ },
+ "11:9": {
+  "kit": "Rolling Schranz",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 08.wav",
+  "pack": 18
+ },
+ "11:10": {
+  "kit": "Rolling Schranz",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/05 SVE2 Open Hi-Hats/SVE2 Oh 08.wav",
+  "pack": 18
+ },
+ "11:11": {
+  "kit": "Rolling Schranz",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/02 SVE2 Perc Shots/SVE2 Perc 01.wav",
+  "pack": 18
+ },
+ "11:12": {
+  "kit": "Rolling Schranz",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/04 SSP FX Impacts/SSP FX Impact Shot 5.wav",
+  "pack": 37
+ },
+ "11:13": {
+  "kit": "Rolling Schranz",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #37 Schranz Signature Pack/05 Vocals & Effect Samples/09 SSP Reverse Crashes/SSP Reverse Crash 5.wav",
+  "pack": 37
+ },
+ "11:14": {
+  "kit": "Rolling Schranz",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/03 SVE2 Clap Shots/SVE2 Clap 07.wav",
+  "pack": 18
+ },
+ "11:15": {
+  "kit": "Rolling Schranz",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #37 Schranz Signature Pack/03 Drum & Percussion Shots/07 SSP Rides & Cymbals/SSP Rides & Cymbal Shot 9.wav",
+  "pack": 37
+ },
+ "12:0": {
+  "kit": "Twenty Years Hard",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/01 OBI Kick Shots/OBI Hard Rumble Kicks/OBI Hard Rumble Kick 2.wav",
+  "pack": 7
+ },
+ "12:1": {
+  "kit": "Twenty Years Hard",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/03 OBI Dirty Lofi Shots/OBI Dirty Lofi Shot 26.wav",
+  "pack": 7
+ },
+ "12:2": {
+  "kit": "Twenty Years Hard",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/04 OBI Claps & Snares/OBI Snares/OBI Snare 1.wav",
+  "pack": 7
+ },
+ "12:3": {
+  "kit": "Twenty Years Hard",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/07 OBI Processed FX Claps/OBI Processed Fx Clap 21.wav",
+  "pack": 7
+ },
+ "12:4": {
+  "kit": "Twenty Years Hard",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/06 SVE2 Rumble Shots/SVE2 Sub 05.wav",
+  "pack": 18
+ },
+ "12:5": {
+  "kit": "Twenty Years Hard",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 26.wav",
+  "pack": 7
+ },
+ "12:6": {
+  "kit": "Twenty Years Hard",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/01 OBI Closed Hats/OBI Closed Hat 15.wav",
+  "pack": 7
+ },
+ "12:7": {
+  "kit": "Twenty Years Hard",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/03 OBI Dirty Lofi Shots/OBI Dirty Lofi Shot 8.wav",
+  "pack": 7
+ },
+ "12:8": {
+  "kit": "Twenty Years Hard",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/01 OBI Closed Hats/OBI Closed Hat 12.wav",
+  "pack": 7
+ },
+ "12:9": {
+  "kit": "Twenty Years Hard",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 92.wav",
+  "pack": 7
+ },
+ "12:10": {
+  "kit": "Twenty Years Hard",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/02 OBI Open Hats/OBI Open Hat 8.wav",
+  "pack": 7
+ },
+ "12:11": {
+  "kit": "Twenty Years Hard",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 30.wav",
+  "pack": 7
+ },
+ "12:12": {
+  "kit": "Twenty Years Hard",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/04 OBI Atmo & FX/02 OBI FX Impacts/OBI FX Impact 8.wav",
+  "pack": 7
+ },
+ "12:13": {
+  "kit": "Twenty Years Hard",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/05 OBI Crashes/OBI Crashes 10.wav",
+  "pack": 7
+ },
+ "12:14": {
+  "kit": "Twenty Years Hard",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/07 OBI Processed FX Claps/OBI Processed Fx Clap 17.wav",
+  "pack": 7
+ },
+ "12:15": {
+  "kit": "Twenty Years Hard",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/04 OBI Rides/OBI Ride 4.wav",
+  "pack": 7
+ },
+ "13:0": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/01 OBI Kick Shots/OBI Industrial Kicks/OBI Hard Industrial Kick 10.wav",
+  "pack": 7
+ },
+ "13:1": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 16.wav",
+  "pack": 7
+ },
+ "13:2": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/04 OBI Claps & Snares/OBI Snares/OBI Snare 2.wav",
+  "pack": 7
+ },
+ "13:3": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/07 OBI Processed FX Claps/OBI Processed Fx Clap 36.wav",
+  "pack": 7
+ },
+ "13:4": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/06 SVE2 Rumble Shots/SVE2 Sub 04.wav",
+  "pack": 18
+ },
+ "13:5": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/06 OBI Metallic Shots/OBI Metallic Shot 5.wav",
+  "pack": 7
+ },
+ "13:6": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/01 OBI Closed Hats/OBI Closed Hat 6.wav",
+  "pack": 7
+ },
+ "13:7": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/03 OBI Dirty Lofi Shots/OBI Dirty Lofi Shot 10.wav",
+  "pack": 7
+ },
+ "13:8": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/03 OBI Lofi Hats/OBI Lofi Hat 8.wav",
+  "pack": 7
+ },
+ "13:9": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 94.wav",
+  "pack": 7
+ },
+ "13:10": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/02 OBI Open Hats/OBI Open Hat 9.wav",
+  "pack": 7
+ },
+ "13:11": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 44.wav",
+  "pack": 7
+ },
+ "13:12": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/04 OBI Atmo & FX/02 OBI FX Impacts/OBI FX Impact 9.wav",
+  "pack": 7
+ },
+ "13:13": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/05 OBI Crashes/OBI Crashes 9.wav",
+  "pack": 7
+ },
+ "13:14": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/04 OBI Claps & Snares/OBI Claps/OBI Clap 1.wav",
+  "pack": 7
+ },
+ "13:15": {
+  "kit": "Dirty Lofi Hard",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/04 OBI Rides/OBI Ride 5.wav",
+  "pack": 7
+ },
+ "14:0": {
+  "kit": "Warehouse Pressure",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/01 OBI Kick Shots/OBI Hard Rumble Kicks/OBI Hard Rumble Kick 29.wav",
+  "pack": 7
+ },
+ "14:1": {
+  "kit": "Warehouse Pressure",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 8.wav",
+  "pack": 7
+ },
+ "14:2": {
+  "kit": "Warehouse Pressure",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/04 OBI Claps & Snares/OBI Snares/OBI Snare 3.wav",
+  "pack": 7
+ },
+ "14:3": {
+  "kit": "Warehouse Pressure",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/07 OBI Processed FX Claps/OBI Processed Fx Clap 28.wav",
+  "pack": 7
+ },
+ "14:4": {
+  "kit": "Warehouse Pressure",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/06 SVE2 Rumble Shots/SVE2 Sub 10.wav",
+  "pack": 18
+ },
+ "14:5": {
+  "kit": "Warehouse Pressure",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/03 OBI Dirty Lofi Shots/OBI Dirty Lofi Shot 18.wav",
+  "pack": 7
+ },
+ "14:6": {
+  "kit": "Warehouse Pressure",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/03 OBI Lofi Hats/OBI Lofi Hat 15.wav",
+  "pack": 7
+ },
+ "14:7": {
+  "kit": "Warehouse Pressure",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/03 OBI Dirty Lofi Shots/OBI Dirty Lofi Shot 27.wav",
+  "pack": 7
+ },
+ "14:8": {
+  "kit": "Warehouse Pressure",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/03 OBI Lofi Hats/OBI Lofi Hat 13.wav",
+  "pack": 7
+ },
+ "14:9": {
+  "kit": "Warehouse Pressure",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/03 OBI Dirty Lofi Shots/OBI Dirty Lofi Shot 32.wav",
+  "pack": 7
+ },
+ "14:10": {
+  "kit": "Warehouse Pressure",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/02 OBI Open Hats/OBI Open Hat 13.wav",
+  "pack": 7
+ },
+ "14:11": {
+  "kit": "Warehouse Pressure",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 87.wav",
+  "pack": 7
+ },
+ "14:12": {
+  "kit": "Warehouse Pressure",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/04 OBI Atmo & FX/02 OBI FX Impacts/OBI FX Impact 4.wav",
+  "pack": 7
+ },
+ "14:13": {
+  "kit": "Warehouse Pressure",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/05 OBI Crashes/OBI Crashes 8.wav",
+  "pack": 7
+ },
+ "14:14": {
+  "kit": "Warehouse Pressure",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/07 OBI Processed FX Claps/OBI Processed Fx Clap 96.wav",
+  "pack": 7
+ },
+ "14:15": {
+  "kit": "Warehouse Pressure",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/04 OBI Rides/OBI Ride 7.wav",
+  "pack": 7
+ },
+ "15:0": {
+  "kit": "Hard Groove Tools",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/01 HST1 Kick & Bass/05 HST1 Short Kick Shots/HST1 Short Kick Shot  5.wav",
+  "pack": 28
+ },
+ "15:1": {
+  "kit": "Hard Groove Tools",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 42.wav",
+  "pack": 28
+ },
+ "15:2": {
+  "kit": "Hard Groove Tools",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/03 HST1 Snare One Shots/HST1 Snare Shot 10.wav",
+  "pack": 28
+ },
+ "15:3": {
+  "kit": "Hard Groove Tools",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/02 HST1 Clap One Shots/HST1 Clap Shot 9.wav",
+  "pack": 28
+ },
+ "15:4": {
+  "kit": "Hard Groove Tools",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/06 SVE2 Rumble Shots/SVE2 Sub 06.wav",
+  "pack": 18
+ },
+ "15:5": {
+  "kit": "Hard Groove Tools",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 36.wav",
+  "pack": 28
+ },
+ "15:6": {
+  "kit": "Hard Groove Tools",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/04 HST1 Closed Hat Shots/HST1 Hi-Hat Shot 8.wav",
+  "pack": 28
+ },
+ "15:7": {
+  "kit": "Hard Groove Tools",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 7.wav",
+  "pack": 28
+ },
+ "15:8": {
+  "kit": "Hard Groove Tools",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/04 HST1 Closed Hat Shots/HST1 Hi-Hat Shot 10.wav",
+  "pack": 28
+ },
+ "15:9": {
+  "kit": "Hard Groove Tools",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 16.wav",
+  "pack": 28
+ },
+ "15:10": {
+  "kit": "Hard Groove Tools",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/05 HST1 Open Hat Shots/HST1 Hi-Hat Shot 39.wav",
+  "pack": 28
+ },
+ "15:11": {
+  "kit": "Hard Groove Tools",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 25.wav",
+  "pack": 28
+ },
+ "15:12": {
+  "kit": "Hard Groove Tools",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/05 HST1 Atmo & Effects/07 HST1 White Noise FX/HST1 White Noise FX 12.wav",
+  "pack": 28
+ },
+ "15:13": {
+  "kit": "Hard Groove Tools",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/05 OBI Crashes/OBI Crashes 5.wav",
+  "pack": 7
+ },
+ "15:14": {
+  "kit": "Hard Groove Tools",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/02 HST1 Clap One Shots/HST1 Clap Shot 8.wav",
+  "pack": 28
+ },
+ "15:15": {
+  "kit": "Hard Groove Tools",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/06 HST1 Ride One Shots/HST1 Ride Shot 9.wav",
+  "pack": 28
+ },
+ "16:0": {
+  "kit": "Driving Machine",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/01 HST1 Kick & Bass/04 HST1 Dirty Kick Shots/HST1 Dirty Kick Shot 14.wav",
+  "pack": 28
+ },
+ "16:1": {
+  "kit": "Driving Machine",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 10.wav",
+  "pack": 28
+ },
+ "16:2": {
+  "kit": "Driving Machine",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/03 HST1 Snare One Shots/HST1 Snare Shot 9.wav",
+  "pack": 28
+ },
+ "16:3": {
+  "kit": "Driving Machine",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/02 HST1 Clap One Shots/HST1 Clap Shot 10.wav",
+  "pack": 28
+ },
+ "16:4": {
+  "kit": "Driving Machine",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/06 SVE2 Rumble Shots/SVE2 Sub 07.wav",
+  "pack": 18
+ },
+ "16:5": {
+  "kit": "Driving Machine",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 38.wav",
+  "pack": 28
+ },
+ "16:6": {
+  "kit": "Driving Machine",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/04 HST1 Closed Hat Shots/HST1 Hi-Hat Shot 12.wav",
+  "pack": 28
+ },
+ "16:7": {
+  "kit": "Driving Machine",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 15.wav",
+  "pack": 28
+ },
+ "16:8": {
+  "kit": "Driving Machine",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/04 HST1 Closed Hat Shots/HST1 Hi-Hat Shot 24.wav",
+  "pack": 28
+ },
+ "16:9": {
+  "kit": "Driving Machine",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 47.wav",
+  "pack": 28
+ },
+ "16:10": {
+  "kit": "Driving Machine",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/05 HST1 Open Hat Shots/HST1 Hi-Hat Shot 15.wav",
+  "pack": 28
+ },
+ "16:11": {
+  "kit": "Driving Machine",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 29.wav",
+  "pack": 28
+ },
+ "16:12": {
+  "kit": "Driving Machine",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/05 HST1 Atmo & Effects/01 HST1 Impacts/HST1 Impact 4.wav",
+  "pack": 28
+ },
+ "16:13": {
+  "kit": "Driving Machine",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/05 OBI Crashes/OBI Crashes 4.wav",
+  "pack": 7
+ },
+ "16:14": {
+  "kit": "Driving Machine",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/02 HST1 Clap One Shots/HST1 Clap Shot 3.wav",
+  "pack": 28
+ },
+ "16:15": {
+  "kit": "Driving Machine",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/06 HST1 Ride One Shots/HST1 Ride Shot 8.wav",
+  "pack": 28
+ },
+ "17:0": {
+  "kit": "Bunker Hard",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/01 HST1 Kick & Bass/02 HST1 Rumble Kick Shots/HST1 Rumble Kick Shot 37.wav",
+  "pack": 28
+ },
+ "17:1": {
+  "kit": "Bunker Hard",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 32.wav",
+  "pack": 28
+ },
+ "17:2": {
+  "kit": "Bunker Hard",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/03 HST1 Snare One Shots/HST1 Snare Shot 8.wav",
+  "pack": 28
+ },
+ "17:3": {
+  "kit": "Bunker Hard",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/02 HST1 Clap One Shots/HST1 Clap Shot 2.wav",
+  "pack": 28
+ },
+ "17:4": {
+  "kit": "Bunker Hard",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/06 SVE2 Rumble Shots/SVE2 Sub 03.wav",
+  "pack": 18
+ },
+ "17:5": {
+  "kit": "Bunker Hard",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 8.wav",
+  "pack": 28
+ },
+ "17:6": {
+  "kit": "Bunker Hard",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/04 HST1 Closed Hat Shots/HST1 Hi-Hat Shot 26.wav",
+  "pack": 28
+ },
+ "17:7": {
+  "kit": "Bunker Hard",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 13.wav",
+  "pack": 28
+ },
+ "17:8": {
+  "kit": "Bunker Hard",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/04 HST1 Closed Hat Shots/HST1 Hi-Hat Shot 47.wav",
+  "pack": 28
+ },
+ "17:9": {
+  "kit": "Bunker Hard",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 9.wav",
+  "pack": 28
+ },
+ "17:10": {
+  "kit": "Bunker Hard",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/05 HST1 Open Hat Shots/HST1 Hi-Hat Shot 18.wav",
+  "pack": 28
+ },
+ "17:11": {
+  "kit": "Bunker Hard",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/01 HST1 Rhythm Shots/HST1 Rhythm Shot 49.wav",
+  "pack": 28
+ },
+ "17:12": {
+  "kit": "Bunker Hard",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/05 HST1 Atmo & Effects/01 HST1 Impacts/HST1 Impact 9.wav",
+  "pack": 28
+ },
+ "17:13": {
+  "kit": "Bunker Hard",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/05 OBI Crashes/OBI Crashes 6.wav",
+  "pack": 7
+ },
+ "17:14": {
+  "kit": "Bunker Hard",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/02 HST1 Clap One Shots/HST1 Clap Shot 1.wav",
+  "pack": 28
+ },
+ "17:15": {
+  "kit": "Bunker Hard",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #28 Hardtechno & Schranz Tools/03 HST1 Drum Shots/06 HST1 Ride One Shots/HST1 Ride Shot 10.wav",
+  "pack": 28
+ },
+ "18:0": {
+  "kit": "Boris Core",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #3 - Hardtechno & Schranz Kicks/BORIS RUMBLE KICKS/BORKICK 07.wav",
+  "pack": 3
+ },
+ "18:1": {
+  "kit": "Boris Core",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 4.wav",
+  "pack": 7
+ },
+ "18:2": {
+  "kit": "Boris Core",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/04 OBI Claps & Snares/OBI Snares/OBI Snare 7.wav",
+  "pack": 7
+ },
+ "18:3": {
+  "kit": "Boris Core",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/04 OBI Claps & Snares/OBI Claps/OBI Clap 4.wav",
+  "pack": 7
+ },
+ "18:4": {
+  "kit": "Boris Core",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #18 Hartechno & Schranz Vol. 2/01 SVE2 Drum Shots/06 SVE2 Rumble Shots/SVE2 Sub 02.wav",
+  "pack": 18
+ },
+ "18:5": {
+  "kit": "Boris Core",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/06 OBI Metallic Shots/OBI Metallic Shot 2.wav",
+  "pack": 7
+ },
+ "18:6": {
+  "kit": "Boris Core",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/01 OBI Closed Hats/OBI Closed Hat 14.wav",
+  "pack": 7
+ },
+ "18:7": {
+  "kit": "Boris Core",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 47.wav",
+  "pack": 7
+ },
+ "18:8": {
+  "kit": "Boris Core",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/01 OBI Closed Hats/OBI Closed Hat 8.wav",
+  "pack": 7
+ },
+ "18:9": {
+  "kit": "Boris Core",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/06 OBI Metallic Shots/OBI Metallic Shot 17.wav",
+  "pack": 7
+ },
+ "18:10": {
+  "kit": "Boris Core",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/02 OBI Open Hats/OBI Open Hat 12.wav",
+  "pack": 7
+ },
+ "18:11": {
+  "kit": "Boris Core",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/02 OBI Signature Perc Shots/OBI Signature Perc Shots 31.wav",
+  "pack": 7
+ },
+ "18:12": {
+  "kit": "Boris Core",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/04 OBI Atmo & FX/02 OBI FX Impacts/OBI FX Impact 5.wav",
+  "pack": 7
+ },
+ "18:13": {
+  "kit": "Boris Core",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/05 OBI Crashes/OBI Crashes 7.wav",
+  "pack": 7
+ },
+ "18:14": {
+  "kit": "Boris Core",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/04 OBI Claps & Snares/OBI Claps/OBI Clap 14.wav",
+  "pack": 7
+ },
+ "18:15": {
+  "kit": "Boris Core",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #7 - Hardtechno Signature Pack (20 Years O.B.I.)/01 OBI Drum Shots/05 OBI Hats & Cymbals/04 OBI Rides/OBI Ride 6.wav",
+  "pack": 7
+ },
+ "19:0": {
+  "kit": "Dark Factory",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/01 HDIT3 Heavy Kick Shots/HDIT3 Heavy Kick Shot 14.wav",
+  "pack": 29
+ },
+ "19:1": {
+  "kit": "Dark Factory",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 50.wav",
+  "pack": 29
+ },
+ "19:2": {
+  "kit": "Dark Factory",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/06 HDIT3 Snare Shots/HDIT3 Snare Shot 9.wav",
+  "pack": 29
+ },
+ "19:3": {
+  "kit": "Dark Factory",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 7.wav",
+  "pack": 29
+ },
+ "19:4": {
+  "kit": "Dark Factory",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 22.wav",
+  "pack": 40
+ },
+ "19:5": {
+  "kit": "Dark Factory",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 4.wav",
+  "pack": 29
+ },
+ "19:6": {
+  "kit": "Dark Factory",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/07 HDIT3 Hi-Hat Shots/HDIT3 Hi-Hat Shot 16.wav",
+  "pack": 29
+ },
+ "19:7": {
+  "kit": "Dark Factory",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 28.wav",
+  "pack": 29
+ },
+ "19:8": {
+  "kit": "Dark Factory",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/07 HDIT3 Hi-Hat Shots/HDIT3 Hi-Hat Shot 3.wav",
+  "pack": 29
+ },
+ "19:9": {
+  "kit": "Dark Factory",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 18.wav",
+  "pack": 29
+ },
+ "19:10": {
+  "kit": "Dark Factory",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/07 HDIT3 Hi-Hat Shots/HDIT3 Hi-Hat Shot 17.wav",
+  "pack": 29
+ },
+ "19:11": {
+  "kit": "Dark Factory",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 22.wav",
+  "pack": 29
+ },
+ "19:12": {
+  "kit": "Dark Factory",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/04 HDIT3 FX & Vocals/04 HDIT3 Processed Impact Shots/HDIT3 Processed Impact Shot 9.wav",
+  "pack": 29
+ },
+ "19:13": {
+  "kit": "Dark Factory",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/09 HDIT3 Crash Shots/HDIT3 Crash Shot 5.wav",
+  "pack": 29
+ },
+ "19:14": {
+  "kit": "Dark Factory",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 6.wav",
+  "pack": 29
+ },
+ "19:15": {
+  "kit": "Dark Factory",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/08 HDIT3 Ride Shots/HDIT3 Ride Shot 4.wav",
+  "pack": 29
+ },
+ "20:0": {
+  "kit": "Iron Mill",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/03 HDIT3 Processed FX-Kick/HDIT3 Processed FX Kick Shot 13.wav",
+  "pack": 29
+ },
+ "20:1": {
+  "kit": "Iron Mill",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 45.wav",
+  "pack": 29
+ },
+ "20:2": {
+  "kit": "Iron Mill",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/06 HDIT3 Snare Shots/HDIT3 Snare Shot 8.wav",
+  "pack": 29
+ },
+ "20:3": {
+  "kit": "Iron Mill",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 4.wav",
+  "pack": 29
+ },
+ "20:4": {
+  "kit": "Iron Mill",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 34.wav",
+  "pack": 40
+ },
+ "20:5": {
+  "kit": "Iron Mill",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 11.wav",
+  "pack": 29
+ },
+ "20:6": {
+  "kit": "Iron Mill",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/07 HDIT3 Hi-Hat Shots/HDIT3 Hi-Hat Shot 11.wav",
+  "pack": 29
+ },
+ "20:7": {
+  "kit": "Iron Mill",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 44.wav",
+  "pack": 29
+ },
+ "20:8": {
+  "kit": "Iron Mill",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/07 HDIT3 Hi-Hat Shots/HDIT3 Hi-Hat Shot 10.wav",
+  "pack": 29
+ },
+ "20:9": {
+  "kit": "Iron Mill",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 21.wav",
+  "pack": 29
+ },
+ "20:10": {
+  "kit": "Iron Mill",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/07 HDIT3 Hi-Hat Shots/HDIT3 Hi-Hat Shot 1.wav",
+  "pack": 29
+ },
+ "20:11": {
+  "kit": "Iron Mill",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 24.wav",
+  "pack": 29
+ },
+ "20:12": {
+  "kit": "Iron Mill",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/04 HDIT3 FX & Vocals/04 HDIT3 Processed Impact Shots/HDIT3 Processed Impact Shot 15.wav",
+  "pack": 29
+ },
+ "20:13": {
+  "kit": "Iron Mill",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/09 HDIT3 Crash Shots/HDIT3 Crash Shot 4.wav",
+  "pack": 29
+ },
+ "20:14": {
+  "kit": "Iron Mill",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 5.wav",
+  "pack": 29
+ },
+ "20:15": {
+  "kit": "Iron Mill",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/08 HDIT3 Ride Shots/HDIT3 Ride Shot 5.wav",
+  "pack": 29
+ },
+ "21:0": {
+  "kit": "Concrete Dust",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/02 HDIT3 Assorted Kick Shots/HDIT3 Assorted Kick Shot 12.wav",
+  "pack": 29
+ },
+ "21:1": {
+  "kit": "Concrete Dust",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 8.wav",
+  "pack": 29
+ },
+ "21:2": {
+  "kit": "Concrete Dust",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/06 HDIT3 Snare Shots/HDIT3 Snare Shot 5.wav",
+  "pack": 29
+ },
+ "21:3": {
+  "kit": "Concrete Dust",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 10.wav",
+  "pack": 29
+ },
+ "21:4": {
+  "kit": "Concrete Dust",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 31.wav",
+  "pack": 40
+ },
+ "21:5": {
+  "kit": "Concrete Dust",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 7.wav",
+  "pack": 29
+ },
+ "21:6": {
+  "kit": "Concrete Dust",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/07 HDIT3 Hi-Hat Shots/HDIT3 Hi-Hat Shot 12.wav",
+  "pack": 29
+ },
+ "21:7": {
+  "kit": "Concrete Dust",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 27.wav",
+  "pack": 29
+ },
+ "21:8": {
+  "kit": "Concrete Dust",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/04 ITHTS Hi-Hat Shots/ITHTS Hi-Hat 5.wav",
+  "pack": 4
+ },
+ "21:9": {
+  "kit": "Concrete Dust",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 33.wav",
+  "pack": 29
+ },
+ "21:10": {
+  "kit": "Concrete Dust",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/07 HDIT3 Hi-Hat Shots/HDIT3 Hi-Hat Shot 14.wav",
+  "pack": 29
+ },
+ "21:11": {
+  "kit": "Concrete Dust",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/04 HDIT3 Signature Perc Shots/HDIT3 Signature Perc Shot 48.wav",
+  "pack": 29
+ },
+ "21:12": {
+  "kit": "Concrete Dust",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/04 HDIT3 FX & Vocals/04 HDIT3 Processed Impact Shots/HDIT3 Processed Impact Shot 10.wav",
+  "pack": 29
+ },
+ "21:13": {
+  "kit": "Concrete Dust",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/09 HDIT3 Crash Shots/HDIT3 Crash Shot 1.wav",
+  "pack": 29
+ },
+ "21:14": {
+  "kit": "Concrete Dust",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 1.wav",
+  "pack": 29
+ },
+ "21:15": {
+  "kit": "Concrete Dust",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/08 HDIT3 Ride Shots/HDIT3 Ride Shot 1.wav",
+  "pack": 29
+ },
+ "22:0": {
+  "kit": "Rust Belt",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/01 ITHTS Kick Drum Shots/04 ITHTS Signature Schanz Kick Shots/ITHTS Signature Schranz Kick 7.wav",
+  "pack": 4
+ },
+ "22:1": {
+  "kit": "Rust Belt",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/03 ITHTS Hard Perc Shots/ITHTS Hard Perc Shots 7.wav",
+  "pack": 4
+ },
+ "22:2": {
+  "kit": "Rust Belt",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/06 HDIT3 Snare Shots/HDIT3 Snare Shot 10.wav",
+  "pack": 29
+ },
+ "22:3": {
+  "kit": "Rust Belt",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 2.wav",
+  "pack": 29
+ },
+ "22:4": {
+  "kit": "Rust Belt",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 25.wav",
+  "pack": 40
+ },
+ "22:5": {
+  "kit": "Rust Belt",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/03 ITHTS Hard Perc Shots/ITHTS Hard Perc Shots 2.wav",
+  "pack": 4
+ },
+ "22:6": {
+  "kit": "Rust Belt",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/04 ITHTS Hi-Hat Shots/ITHTS Hi-Hat 28.wav",
+  "pack": 4
+ },
+ "22:7": {
+  "kit": "Rust Belt",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/14 ITHTS Bonus Schranz Tools/ITHTS Bonus Schranz Tools 150 28.wav",
+  "pack": 4
+ },
+ "22:8": {
+  "kit": "Rust Belt",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/04 ITHTS Hi-Hat Shots/ITHTS Hi-Hat 14.wav",
+  "pack": 4
+ },
+ "22:9": {
+  "kit": "Rust Belt",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/03 ITHTS Hard Perc Shots/ITHTS Hard Perc Shots 17.wav",
+  "pack": 4
+ },
+ "22:10": {
+  "kit": "Rust Belt",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/04 ITHTS Hi-Hat Shots/ITHTS Hi-Hat 4.wav",
+  "pack": 4
+ },
+ "22:11": {
+  "kit": "Rust Belt",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/14 ITHTS Bonus Schranz Tools/ITHTS Bonus Schranz Tools 150 32.wav",
+  "pack": 4
+ },
+ "22:12": {
+  "kit": "Rust Belt",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/04 HDIT3 FX & Vocals/04 HDIT3 Processed Impact Shots/HDIT3 Processed Impact Shot 13.wav",
+  "pack": 29
+ },
+ "22:13": {
+  "kit": "Rust Belt",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/09 HDIT3 Crash Shots/HDIT3 Crash Shot 3.wav",
+  "pack": 29
+ },
+ "22:14": {
+  "kit": "Rust Belt",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 3.wav",
+  "pack": 29
+ },
+ "22:15": {
+  "kit": "Rust Belt",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/05 ITHTS Ride Shots/ITHTS Ride 8.wav",
+  "pack": 4
+ },
+ "23:0": {
+  "kit": "Machine Hall",
+  "slot": 0,
+  "role": "kick",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/01 ITHTS Kick Drum Shots/04 ITHTS Signature Schanz Kick Shots/ITHTS Signature Schranz Kick 13.wav",
+  "pack": 4
+ },
+ "23:1": {
+  "kit": "Machine Hall",
+  "slot": 1,
+  "role": "perc",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/03 ITHTS Hard Perc Shots/ITHTS Hard Perc Shots 5.wav",
+  "pack": 4
+ },
+ "23:2": {
+  "kit": "Machine Hall",
+  "slot": 2,
+  "role": "snare",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/06 HDIT3 Snare Shots/HDIT3 Snare Shot 4.wav",
+  "pack": 29
+ },
+ "23:3": {
+  "kit": "Machine Hall",
+  "slot": 3,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 8.wav",
+  "pack": 29
+ },
+ "23:4": {
+  "kit": "Machine Hall",
+  "slot": 4,
+  "role": "rumble",
+  "ref": "TSOHT #40 Modern Schranz Signature Pack/01 Kicks & Bass/03 Signature Kick Builder/02 Kick Builder Rumbles/MS Signature KB Rumble 33.wav",
+  "pack": 40
+ },
+ "23:5": {
+  "kit": "Machine Hall",
+  "slot": 5,
+  "role": "perc_low",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/14 ITHTS Bonus Schranz Tools/ITHTS Bonus Schranz Tools 150 14.wav",
+  "pack": 4
+ },
+ "23:6": {
+  "kit": "Machine Hall",
+  "slot": 6,
+  "role": "hat_c",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/04 ITHTS Hi-Hat Shots/ITHTS Hi-Hat 15.wav",
+  "pack": 4
+ },
+ "23:7": {
+  "kit": "Machine Hall",
+  "slot": 7,
+  "role": "perc",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/14 ITHTS Bonus Schranz Tools/ITHTS Bonus Schranz Tools 150 13.wav",
+  "pack": 4
+ },
+ "23:8": {
+  "kit": "Machine Hall",
+  "slot": 8,
+  "role": "hat_c",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/04 ITHTS Hi-Hat Shots/ITHTS Hi-Hat 29.wav",
+  "pack": 4
+ },
+ "23:9": {
+  "kit": "Machine Hall",
+  "slot": 9,
+  "role": "perc",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/14 ITHTS Bonus Schranz Tools/ITHTS Bonus Schranz Tools 150 4.wav",
+  "pack": 4
+ },
+ "23:10": {
+  "kit": "Machine Hall",
+  "slot": 10,
+  "role": "hat_o",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/04 ITHTS Hi-Hat Shots/ITHTS Hi-Hat 16.wav",
+  "pack": 4
+ },
+ "23:11": {
+  "kit": "Machine Hall",
+  "slot": 11,
+  "role": "perc",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/14 ITHTS Bonus Schranz Tools/ITHTS Bonus Schranz Tools 150 19.wav",
+  "pack": 4
+ },
+ "23:12": {
+  "kit": "Machine Hall",
+  "slot": 12,
+  "role": "fx",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/04 HDIT3 FX & Vocals/04 HDIT3 Processed Impact Shots/HDIT3 Processed Impact Shot 23.wav",
+  "pack": 29
+ },
+ "23:13": {
+  "kit": "Machine Hall",
+  "slot": 13,
+  "role": "crash",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/09 HDIT3 Crash Shots/HDIT3 Crash Shot 2.wav",
+  "pack": 29
+ },
+ "23:14": {
+  "kit": "Machine Hall",
+  "slot": 14,
+  "role": "clap",
+  "ref": "TSOHT #29 Hard & Dark Industrial Techno Vol. 3/01 HDIT3 Drum Shots/05 HDIT3 Clap Shots/HDIT3 Clap Shot 9.wav",
+  "pack": 29
+ },
+ "23:15": {
+  "kit": "Machine Hall",
+  "slot": 15,
+  "role": "ride",
+  "ref": "TSOHT #4 - Industrial Techno, Hardtechno & Schranz/05 ITHTS Ride Shots/ITHTS Ride 9.wav",
+  "pack": 4
+ }
+}

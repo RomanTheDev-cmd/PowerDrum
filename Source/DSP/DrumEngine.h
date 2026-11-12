@@ -175,31 +175,6 @@ private:
 };
 
 //==============================================================================
-inline double shapeDrive (double x, double g, DriveMode m) noexcept
-{
-    const double v = x * g;
-    switch (m)
-    {
-        case DriveMode::clip:  return juce::jlimit (-1.0, 1.0, v);
-        case DriveMode::fold:  return std::sin (juce::jlimit (-8.0, 8.0, v) * pi * 0.5) * 0.8 + 0.2 * std::tanh (v);
-        case DriveMode::crush:
-        case DriveMode::saturate:
-        default:               return std::tanh (v + 0.06) - std::tanh (0.06);
-    }
-}
-
-// Keeps the peak of a full-scale hit near constant as DRIVE rises (density, not level, grows).
-inline double driveNorm (double g, DriveMode m) noexcept
-{
-    double peak = 0.0;
-    for (int i = 1; i <= 64; ++i)
-    {
-        const double x = 0.9 * i / 64.0;
-        peak = std::max ({ peak, std::abs (shapeDrive (x, g, m)), std::abs (shapeDrive (-x, g, m)) });
-    }
-    return juce::jlimit (0.25, 4.0, 0.9 / std::max (peak, 1.0e-6));
-}
-
 //==============================================================================
 class Slot
 {
@@ -246,6 +221,9 @@ public:
         h.seed = seed;
         h.analogCents = analogCents;
         h.analogDecay = analogDecay;
+        h.drive = p.drive;
+        h.driveMode = p.driveMode;
+        driveInVoice = p.type == DrumType::kick;
         const bool mono = p.type == DrumType::kick || p.type == DrumType::tom || p.type == DrumType::rumble || p.type == DrumType::hat;
         DrumVoice* target = nullptr;
         if (mono)
@@ -337,7 +315,7 @@ public:
                     any = true;
                 }
             double x = dry + resonator.tick (wet);
-            if (drv > 1.0e-4)
+            if (drv > 1.0e-4 && ! driveInVoice)
             {
                 if (driveMode == DriveMode::crush) // CRUSH: fewer bits and held samples
                 {
@@ -407,7 +385,7 @@ private:
     int filterMode = 0, cs = 0, idleSamples = 1 << 30, crushCount = 0;
     double driveGain = 1.0, norm = 1.0, lastDrive = -1.0, crushHold = 0.0, dcX = 0.0, dcY = 0.0, dcR = 0.9995;
     DriveMode driveMode = DriveMode::saturate, lastMode = DriveMode::saturate;
-    bool initialised = false;
+    bool initialised = false, driveInVoice = false;
 };
 
 //==============================================================================

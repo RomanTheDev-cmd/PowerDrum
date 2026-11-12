@@ -4,7 +4,7 @@ namespace pd
 {
 // The PLAY groove: two bars of 16ths, a velocity per slot and step (0 = rest). Slots in the default layout:
 // 0 kick, 1 rim, 2 snare, 3 clap, 4 rumble, 5 tom, 6 closed hat, 7 perc, 8 hat 2, 9 perc, 10 open hat, 11 perc,
-// 12 fx, 13 crash, 14 fx 2, 15 ride. Whatever a kit puts in a slot is played there.
+// 12 fx, 13 crash, 14 second clap, 15 ride. Whatever a kit puts in a slot is played there.
 inline constexpr int grooveSteps = 32;
 inline float grooveVelocity (int slot, int step)
 {
@@ -24,6 +24,9 @@ inline float grooveVelocity (int slot, int step)
         case 15: return (bar == 1 && s % 4 == 2) ? 0.6f : 0.0f;                        // ride in the second bar
         case 13: return step == 0 ? 0.9f : 0.0f;                                      // crash at the top
         case 12: return (bar == 1 && s == 12) ? 0.8f : 0.0f;
+        case 5:  return (bar == 0 && s == 14) || (bar == 1 && s == 5) ? 0.75f : 0.0f;    // low percussion
+        case 8:  return (s == 1 || s == 9) ? 0.45f : 0.0f;                             // second hat, ghost 16ths
+        case 14: return (bar == 1 && s == 7) ? 0.6f : 0.0f;                            // second clap, a flam
         default: return 0.0f;
     }
 }
